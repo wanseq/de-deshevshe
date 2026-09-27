@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Де дешевше? — Горішні Плавні</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap nav">
+    <a class="logo" href="#">🛒 <b>Де дешевше?</b></a>
+    <div class="location">📍 Горішні Плавні</div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <span class="eyebrow">АТБ + Сільпо + Фоззі</span>
+    <h1>Знайди товар і порівняй ціну</h1>
+    <p id="heroSub">Порівняння цін АТБ, Сільпо та онлайн-каталогу Фоззі.</p>
+
+    <div class="search">
+      <span>⌕</span>
+      <input id="search" autocomplete="off" placeholder="Наприклад: молоко, яйця, хліб..." autofocus>
+      <button id="clear">×</button>
+    </div>
+
+    <div class="chips" id="chips">
+      <button data-q="молоко">🥛 Молоко</button>
+      <button data-q="яйця">🥚 Яйця</button>
+      <button data-q="хліб">🍞 Хліб</button>
+      <button data-q="макарони">🍝 Макарони</button>
+      <button data-q="цукор">🧂 Цукор</button>
+      <button data-q="масло">🧈 Масло</button>
+    </div>
+  </section>
+
+  <div class="toolbar">
+    <div class="toolbar-left">
+      <strong id="count">Товари</strong>
+      <span id="hint"></span>
+    </div>
+    <div class="toolbar-right">
+      <select id="category">
+        <option value="">Усі категорії</option>
+      </select>
+      <select id="sort">
+        <option value="default">За релевантністю</option>
+        <option value="cheap">Спочатку дешевші</option>
+        <option value="name">За назвою</option>
+        <option value="diff">Найбільша різниця в ціні</option>
+      </select>
+    </div>
+  </div>
+
+  <section id="products" class="grid"></section>
+
+  <div class="load-more-wrap">
+    <button id="loadMore" class="load-more">Показати ще</button>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap" id="footerNote">Дані підключаються через products.js</div>
+</footer>
+
+<script src="products.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
