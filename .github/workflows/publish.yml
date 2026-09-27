@@ -1,0 +1,79 @@
+name: Publish site and refresh prices
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '37 3 * * *'
+      timezone: 'Europe/Kyiv'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: price-site-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        if: github.event_name != 'push'
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Install scraper dependencies
+        if: github.event_name != 'push'
+        run: python -m pip install -r scraper/requirements.txt
+
+      - name: Collect fresh catalogues and rebuild products.js
+        if: github.event_name != 'push'
+        working-directory: scraper
+        run: |
+          python -u atb_scraper.py
+          python -u silpo_scraper.py
+          python -u fozzy_scraper.py
+          python validate_build.py --raw
+          cp ../products.js ../previous_products.js
+          python -u merge.py
+          python validate_build.py --merged
+
+      - name: Prepare static site and update asset version
+        shell: bash
+        run: |
+          mkdir -p public
+          cp index.html style.css app.js products.js public/
+          touch public/.nojekyll
+          python - <<'PY'
+          from hashlib import sha256
+          from pathlib import Path
+          page = Path('public/index.html')
+          fingerprint = sha256(Path('public/products.js').read_bytes()).hexdigest()[:12]
+          page.write_text(page.read_text().replace('src="products.js"', f'src="products.js?v={fingerprint}"'))
+          PY
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: public
+
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v4
