@@ -1,6 +1,8 @@
 """Collect stores concurrently; retain last verified data on failure."""
 import json
+import argparse
 import os
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -22,8 +24,13 @@ def collect_store(store):
         if store == 'fozzy':
             command += ['--workers', '1']
         with log_path.open('w') as log:
-            subprocess.run(command, cwd=tmp, stdout=log, stderr=subprocess.STDOUT,
-                           check=True, timeout=4200)
+            try:
+                subprocess.run(command, cwd=tmp, stdout=log, stderr=subprocess.STDOUT,
+                               check=True, timeout=4200)
+            finally:
+                diagnostic = Path(tmp) / 'fozzy_diagnostics.json'
+                if store == 'fozzy' and diagnostic.exists():
+                    shutil.copyfile(diagnostic, ROOT / diagnostic.name)
         rows, digest = inspect_catalog(output, store)
         # Same filesystem is not guaranteed for /tmp and checkout.
         staged = ROOT / f'{store}_products.pending'
@@ -33,12 +40,12 @@ def collect_store(store):
                 'sha256': digest, 'count': len(rows)}
 
 
-def main():
+def main(stores=STORES):
     os.chdir(ROOT)
     metadata = verified_metadata(ROOT)
-    report = {}
+    report = {store: 'not requested; kept existing catalogue' for store in STORES if store not in stores}
     with ThreadPoolExecutor(max_workers=3) as pool:
-        futures = {pool.submit(collect_store, store): store for store in STORES}
+        futures = {pool.submit(collect_store, store): store for store in stores}
         pending = set(futures)
         while pending:
             completed, pending = wait(pending, timeout=30, return_when=FIRST_COMPLETED)
@@ -71,4 +78,7 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--store', choices=('all', *STORES), default='all')
+    args = parser.parse_args()
+    main(STORES if args.store == 'all' else (args.store,))

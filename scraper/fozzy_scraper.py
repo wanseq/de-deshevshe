@@ -10,14 +10,20 @@
 import argparse
 import asyncio
 import json
-from urllib.parse import urljoin
+import math
+import re
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
+from pathlib import Path
+from urllib.parse import urljoin, urlparse, parse_qs
 
 import aiohttp
 from lxml import html
 
 BASE_URL = "https://fozzyshop.ua"
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 Safari/605.1.15",
-           "Accept-Language": "uk-UA,uk;q=0.9"}
+           "Accept-Language": "uk-UA,uk;q=0.9",
+           "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8"}
 
 # Великі продуктові розділи, які перетинаються з каталогами АТБ і Сільпо.
 CATEGORIES = [
@@ -46,6 +52,9 @@ def parse_page(document, category):
     tree = html.fromstring(document)
     pages = [int(text.strip()) for text in tree.xpath('//div[contains(@class,"pagination")]//a/text()')
              if text.strip().isdigit()]
+    for href in tree.xpath('//div[contains(@class,"pagination")]//a/@href'):
+        values = parse_qs(urlparse(href).query).get("page", [])
+        pages.extend(int(value) for value in values if value.isdigit())
     products = []
     for card in tree.xpath(CARD_XPATH):
         price_block = card.xpath('.//div[contains(concat(" ",normalize-space(@class)," ")," product_mini_prices_block ")]')
@@ -56,7 +65,7 @@ def parse_page(document, category):
             continue
         name = (card.get("data-product-name") or "").strip()
         urls = card.xpath('.//div[contains(@class,"product_mini_name")]//a/@href')
-        if not name or not urls or price <= 0:
+        if not name or not urls or not math.isfinite(price) or price <= 0:
             continue
         unit_type = card.get("data-unit-type", "").lower()
         unit_text = " ".join(card.xpath('.//div[contains(@class,"product_mini_unit")]//span/text()')).strip()
@@ -75,7 +84,46 @@ def parse_page(document, category):
     return products, max(pages or [1])
 
 
-async def collect(output="fozzy_products.json", workers=3, delay=0.25, limit_pages=None):
+class AccessDenied(RuntimeError):
+    """A denied request must not be retried as a temporary server error."""
+
+
+def retry_delay(value, attempt):
+    """Respect Retry-After; stop rather than retry early for a long cooldown."""
+    seconds = 2 ** attempt
+    if value:
+        try:
+            seconds = max(seconds, float(value))
+        except ValueError:
+            try:
+                seconds = max(seconds, (parsedate_to_datetime(value) - datetime.now(timezone.utc)).total_seconds())
+            except (TypeError, ValueError):
+                pass
+    if seconds > 120:
+        raise RuntimeError("FOZZY requests a cooldown longer than 120 seconds; keeping previous data")
+    return seconds
+
+
+def response_info(response, body):
+    """Only diagnostic metadata; never log cookies or full response bodies."""
+    text = body[:100000].decode("utf-8", errors="replace")
+    match = re.search(r'(?:error\s*(?:code)?\s*[:#]?\s*)(10\d\d)\b', text, re.I)
+    return {"url": str(response.url), "status": response.status,
+            "server": response.headers.get("Server", ""),
+            "cf_ray": response.headers.get("CF-Ray", ""),
+            "cf_error": match.group(1) if match else None,
+            "content_type": response.headers.get("Content-Type", ""),
+            "bytes": len(body)}
+
+
+async def collect(output="fozzy_products.json", workers=1, delay=0.35, limit_pages=None,
+                  check=False, report="fozzy_diagnostics.json"):
+    if workers < 1 or workers > 3 or (limit_pages is not None and limit_pages < 1):
+        raise ValueError("workers must be 1..3; limit-pages must be positive")
+    diagnostics = {"checked_at": datetime.now(timezone.utc).isoformat(), "requests": [], "result": "running"}
+    def save_report():
+        Path(report).write_text(json.dumps(diagnostics, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    save_report()
     semaphore = asyncio.Semaphore(workers)
     timeout = aiohttp.ClientTimeout(total=40)
     connector = aiohttp.TCPConnector(limit=workers)
@@ -89,24 +137,57 @@ async def collect(output="fozzy_products.json", workers=3, delay=0.25, limit_pag
                 try:
                     async with semaphore:
                         async with session.get(url) as response:
+                            data = await response.read()
+                            info = response_info(response, data)
+                            # Keep failed responses and first pages, not hundreds of successes.
+                            if response.status != 200 or page == 1:
+                                diagnostics["requests"].append(info)
+                                save_report()
+                            if response.status in (401, 403):
+                                diagnostics["result"] = "access_denied"
+                                save_report()
+                                raise AccessDenied(f"FOZZY HTTP {response.status}; CF code={info['cf_error']}; "
+                                                   f"ray={info['cf_ray']}; URL={url}. Access denied, no repeated requests.")
                             if response.status in (429, 500, 502, 503, 504):
+                                wait = retry_delay(response.headers.get("Retry-After"), attempt)
+                                if attempt < 3:
+                                    await asyncio.sleep(wait)
+                                    continue
                                 raise RuntimeError(f"HTTP {response.status}")
                             response.raise_for_status()
-                            data = await response.read()
                         await asyncio.sleep(delay)
                     return data
-                except (aiohttp.ClientError, asyncio.TimeoutError, RuntimeError):
+                except AccessDenied:
+                    raise
+                except (aiohttp.ClientError, asyncio.TimeoutError):
                     if attempt == 3:
                         raise
                     await asyncio.sleep(2 ** attempt)
+
+        # Start a normal site session and retain any cookies set by the homepage.
+        await fetch("/")
+        if check:
+            category, path = CATEGORIES[0]
+            products, total = parse_page(await fetch(path), category)
+            if not products:
+                diagnostics["result"] = "no_products"
+                save_report()
+                raise RuntimeError("FOZZY returned a page without product cards; see diagnostics")
+            diagnostics.update(result="check_ok", products=len(products), pages=total)
+            save_report()
+            print(f"FOZZY_CHECK_OK: {len(products)} products, {total} pages. No catalogues changed.", flush=True)
+            return products
 
         async def category_pages(category, path):
             first, total = parse_page(await fetch(path), category)
             if not first:
                 raise RuntimeError(f"Порожня категорія {category}: {path}")
             last = min(total, limit_pages) if limit_pages else total
+            if last > 1000:
+                raise RuntimeError(f"Unexpected page count: {last}")
             print(f"{category}: {last} сторінок", flush=True)
             pages = [first]
+            page_signatures = {tuple(sorted(item['sku'] or item['url'] for item in first))}
             # Завантажуємо по декілька сторінок; обмеження semaphore спільне
             # для всіх категорій, щоб не створювати надмірного навантаження.
             for start in range(2, last + 1, 12):
@@ -115,7 +196,12 @@ async def collect(output="fozzy_products.json", workers=3, delay=0.25, limit_pag
                     items, _ = parse_page(document, category)
                     if not items:
                         raise RuntimeError(f"Порожня сторінка у категорії {category}")
+                    signature = tuple(sorted(item['sku'] or item['url'] for item in items))
+                    if signature in page_signatures:
+                        raise RuntimeError(f"Repeated page in {category}; refusing incomplete catalogue")
+                    page_signatures.add(signature)
                     pages.append(items)
+                print(f"  {category}: pages through {min(last, start + 11)}/{last}", flush=True)
             return [item for page in pages for item in page]
 
         # По одній категорії, але сторінки всередині паралельні; простіше
@@ -131,8 +217,12 @@ async def collect(output="fozzy_products.json", workers=3, delay=0.25, limit_pag
                     all_items.append(item)
             print(f"  +{len(items)}; всього унікальних {len(all_items)}", flush=True)
 
-    with open(output, "w", encoding="utf-8") as file:
+    staged = Path(output).with_suffix(".pending")
+    with staged.open("w", encoding="utf-8") as file:
         json.dump(all_items, file, ensure_ascii=False, indent=2)
+    staged.replace(output)
+    diagnostics.update(result="complete" if not limit_pages else "limited", products=len(all_items))
+    save_report()
     print(f"Записано {len(all_items)} товарів у {output}")
     return all_items
 
@@ -140,7 +230,9 @@ async def collect(output="fozzy_products.json", workers=3, delay=0.25, limit_pag
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", default="fozzy_products.json")
-    parser.add_argument("--workers", type=int, default=3)
+    parser.add_argument("--workers", type=int, default=1)
+    parser.add_argument("--check", action="store_true", help="Check homepage and one category without changing product data")
+    parser.add_argument("--report", default="fozzy_diagnostics.json")
     parser.add_argument("--limit-pages", type=int, default=None, help="Лише для перевірки парсера")
     args = parser.parse_args()
-    asyncio.run(collect(args.output, args.workers, limit_pages=args.limit_pages))
+    asyncio.run(collect(args.output, args.workers, limit_pages=args.limit_pages, check=args.check, report=args.report))
