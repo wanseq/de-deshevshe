@@ -142,7 +142,7 @@ function render() {
         <div class="prices">
           ${STORES.map(({key, name}, i) => priceRow(name, p[key], p[`${key}_raw`], p[`${key}_per_base`], p[`${key}_base_unit`], p[`${key}_price_label`], uniqueCheapest && comparable[i] === cheapest, p[`${key}_out_of_stock`])).join("")}
         </div>
-        <div class="updated">${p.demo ? "Ціна демонстраційна." : `Оновлено: ${escapeHtml(p.updated || "невідомо")}`}</div>
+        <div class="updated">${p.demo ? "Ціна демонстраційна." : (p.store_updated ? "Дати цін — " + STORES.filter(({key}) => p.store_updated[key]).map(({key, name}) => `${escapeHtml(name)}: ${escapeHtml(p.store_updated[key])}`).join(" · ") : `Оновлено: ${escapeHtml(p.updated || "невідомо")}`)}</div>
         ${p.source ? `<div class="source">${escapeHtml(p.source)}</div>` : ""}
         ${p.demo ? `<div class="demo-flag">ДЕМО-ДАНІ</div>` : ""}
       </div>

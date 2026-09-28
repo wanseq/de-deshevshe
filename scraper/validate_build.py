@@ -1,5 +1,6 @@
 """Зупиняє нічну публікацію при неповному зборі або некоректній збірці."""
 
+from catalog_state import verified_metadata
 import argparse
 import json
 from datetime import datetime
@@ -23,6 +24,7 @@ def load_products_js(path):
 
 
 def validate_raw():
+    verified_metadata()
     for name, minimum in MIN_CATALOG.items():
         rows = json.loads(Path(name).read_text(encoding="utf-8"))
         print(f"{name}: {len(rows)} товарів (мінімум {minimum})")
@@ -37,14 +39,19 @@ def validate_merged():
     print(f"products.js: {len(new)} карток (мінімум {minimum})")
     if len(new) < minimum:
         raise ValueError("Замало порівнянних товарів; публікацію зупинено")
+    metadata = verified_metadata()
     today = datetime.now(ZoneInfo("Europe/Kyiv")).date().isoformat()
     for row in new:
         available = sum(row.get(f"{store}_raw") is not None and
                         not row.get(f"{store}_out_of_stock") for store in STORES)
         if available < 2:
             raise ValueError(f"Менше двох магазинів у наявності: {row.get('name')}")
-        if row.get("updated") != today:
-            raise ValueError("Дата даних не відповідає сьогоднішній даті")
+        expected = {store: metadata[store]["collected_on"] for store in STORES
+                    if row.get(f"{store}_raw") is not None}
+        if row.get("store_updated") != expected or row.get("updated") != min(expected.values()):
+            raise ValueError("Incorrect collection dates")
+        if any(day > today for day in expected.values()):
+            raise ValueError("Collection date is in the future")
 
 
 if __name__ == "__main__":

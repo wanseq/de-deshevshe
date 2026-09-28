@@ -7,6 +7,7 @@
 
 import json
 import os
+from catalog_state import verified_metadata, STORES
 from common import merge_three_products, write_products_js
 
 
@@ -19,6 +20,7 @@ def load(path):
 
 
 def main():
+    metadata = verified_metadata()
     atb_items = load("atb_products.json")
     silpo_items = load("silpo_products.json")
     fozzy_items = load("fozzy_products.json")
@@ -32,6 +34,13 @@ def main():
     entries = merge_three_products(atb_items, silpo_items, fozzy_items, threshold=0.6)
     print(f"Зіставлено {len(entries)} товарів, кожен у наявності щонайменше у двох магазинах.")
 
+    for entry in entries:
+        dates = {}
+        for store in STORES:
+            if entry.get(f"{store}_raw") is not None:
+                dates[store] = metadata[store]["collected_on"]
+        entry["store_updated"] = dates
+        entry["updated"] = min(dates.values())
     write_products_js(entries, path="../products.js")
     print("Готово. Відкрийте (або перезавантажте) ../index.html у браузері.")
 
