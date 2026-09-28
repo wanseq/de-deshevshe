@@ -4,6 +4,15 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      store:
+        description: 'all: all stores; fozzy: only Fozzy; check_fozzy: quick connection test'
+        type: choice
+        default: all
+        options:
+          - all
+          - fozzy
+          - check_fozzy
   schedule:
     - cron: '37 3 * * *'
       timezone: 'Europe/Kyiv'
@@ -18,7 +27,32 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  check-fozzy:
+    if: github.event_name == 'workflow_dispatch' && inputs.store == 'check_fozzy'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install -r scraper/requirements.txt
+      - name: Check Fozzy connection
+        working-directory: scraper
+        run: python -u fozzy_scraper.py --check
+      - name: Save connection report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fozzy-check-${{ github.run_id }}-${{ github.run_attempt }}
+          path: scraper/fozzy_diagnostics.json
+          retention-days: 14
+
   publish:
+    if: inputs.store != 'check_fozzy'
     runs-on: ubuntu-latest
     timeout-minutes: 90
     environment:
@@ -43,7 +77,9 @@ jobs:
       - name: Collect stores in parallel
         if: github.event_name != 'push'
         working-directory: scraper
-        run: python -u refresh_catalogs.py
+        env:
+          SELECTED_STORE: ${{ inputs.store || 'all' }}
+        run: python -u refresh_catalogs.py --store "$SELECTED_STORE"
 
       - name: Save catalogues and logs for recovery
         if: always() && github.event_name != 'push'
@@ -56,6 +92,7 @@ jobs:
             scraper/catalog_meta.json
             scraper/*_refresh.log
             scraper/refresh_report.json
+            scraper/fozzy_diagnostics.json
 
       - name: Persist verified catalogues
         if: github.event_name != 'push'
