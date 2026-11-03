@@ -1,13 +1,13 @@
 {
   "atb": {
-    "collected_on": "2026-11-02",
-    "sha256": "88ac4d4f025ad4275509921518004dd28e14572fc3d7cd513ccb00bffa65a3a4",
-    "count": 2701
+    "collected_on": "2026-11-03",
+    "sha256": "10cd5f5f8ac57bbd9fa7999e20eae88cc3cac86a109d3bd0d0fdb6c8d6ac6097",
+    "count": 2692
   },
   "silpo": {
-    "collected_on": "2026-11-02",
-    "sha256": "a7d0882796aa5dab396c04880b112b5e7cfb2d6bfe9502c2b1d00644848dfd6b",
-    "count": 26504
+    "collected_on": "2026-11-03",
+    "sha256": "83af56684e9fa1a3bd840c3caa85d6c591b4eb1c8e0da12c01ca8859e801ca83",
+    "count": 26398
   },
   "fozzy": {
     "collected_on": "2026-10-01",
