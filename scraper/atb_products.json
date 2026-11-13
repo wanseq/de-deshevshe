@@ -66,6 +66,17 @@
     "url": "https://www.atbmarket.com/product/ogirki-1000g600g-rozumnij-vibir-soloni-cudova-marka"
   },
   {
+    "name": "Банан",
+    "unit": "за кг",
+    "category": "Овочі та фрукти",
+    "price": 59.9,
+    "old_price": 74.9,
+    "discount_percent": 20,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/18797/catalog_list_18797.jpg",
+    "url": "https://www.atbmarket.com/product/banan-1-gat"
+  },
+  {
     "name": "Хурма Піраміда 1 гат",
     "unit": "за кг",
     "category": "Овочі та фрукти",
@@ -187,6 +198,39 @@
     "url": "https://www.atbmarket.com/product/abluko-sortove"
   },
   {
+    "name": "Груша",
+    "unit": "за кг",
+    "category": "Овочі та фрукти",
+    "price": 59.9,
+    "old_price": 69.8,
+    "discount_percent": 14,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/1879/catalog_list_1879.png",
+    "url": "https://www.atbmarket.com/product/grusa-1-gat"
+  },
+  {
+    "name": "Морква мита 1 гат",
+    "unit": "за кг",
+    "category": "Овочі та фрукти",
+    "price": 21.89,
+    "old_price": 24.89,
+    "discount_percent": 12,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/1941/catalog_list_1941.jpg",
+    "url": "https://www.atbmarket.com/product/morkva-mita-1-gat"
+  },
+  {
+    "name": "Картопля",
+    "unit": "за кг",
+    "category": "Овочі та фрукти",
+    "price": 12.9,
+    "old_price": 14.49,
+    "discount_percent": 11,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/27/catalog_list_27.png",
+    "url": "https://www.atbmarket.com/product/kartopla-1-gat"
+  },
+  {
     "name": "Ківі",
     "unit": "за кг",
     "category": "Овочі та фрукти",
@@ -198,17 +242,6 @@
     "url": "https://www.atbmarket.com/product/kivi-vagove-1gat"
   },
   {
-    "name": "Виноград Рожевий",
-    "unit": "за кг",
-    "category": "Овочі та фрукти",
-    "price": 109.95,
-    "old_price": 119.95,
-    "discount_percent": 8,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/1868/catalog_list_1868.jpg",
-    "url": "https://www.atbmarket.com/product/vinograd-rozevij-1-gat"
-  },
-  {
     "name": "Гарбуз Баттернат 1 гат",
     "unit": "за кг",
     "category": "Овочі та фрукти",
@@ -218,6 +251,28 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/6890/catalog_list_6890.jpg",
     "url": "https://www.atbmarket.com/product/garbuz-batternat-1-gat"
+  },
+  {
+    "name": "Авокадо вагове 1 гат",
+    "unit": "за кг",
+    "category": "Овочі та фрукти",
+    "price": 169.95,
+    "old_price": 179.95,
+    "discount_percent": 6,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/19483/catalog_list_19483.png",
+    "url": "https://www.atbmarket.com/product/avokado-vagove-1-gat"
+  },
+  {
+    "name": "Виноград Кишмиш",
+    "unit": "за кг",
+    "category": "Овочі та фрукти",
+    "price": 94.95,
+    "old_price": 99.95,
+    "discount_percent": 5,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/1857/catalog_list_1857.jpg",
+    "url": "https://www.atbmarket.com/product/vinograd-kis-mis-1-gat"
   },
   {
     "name": "Манго 100 г Своя Лінія сушене м/уп",
@@ -308,17 +363,6 @@
     "url": "https://www.atbmarket.com/product/mandarini-1gat"
   },
   {
-    "name": "Банан",
-    "unit": "за кг",
-    "category": "Овочі та фрукти",
-    "price": 74.9,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/18797/catalog_list_18797.jpg",
-    "url": "https://www.atbmarket.com/product/banan-1-gat"
-  },
-  {
     "name": "Капуста",
     "unit": "за кг",
     "category": "Овочі та фрукти",
@@ -333,7 +377,7 @@
     "name": "Огірки",
     "unit": "за кг",
     "category": "Овочі та фрукти",
-    "price": 139.89,
+    "price": 148.89,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": false,
@@ -350,28 +394,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/1919/catalog_list_1919.jpg",
     "url": "https://www.atbmarket.com/product/kartopla-sitka-1-gat"
-  },
-  {
-    "name": "Груша",
-    "unit": "за кг",
-    "category": "Овочі та фрукти",
-    "price": 69.8,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/1879/catalog_list_1879.png",
-    "url": "https://www.atbmarket.com/product/grusa-1-gat"
-  },
-  {
-    "name": "Виноград Кишмиш",
-    "unit": "за кг",
-    "category": "Овочі та фрукти",
-    "price": 99.95,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/1857/catalog_list_1857.jpg",
-    "url": "https://www.atbmarket.com/product/vinograd-kis-mis-1-gat"
   },
   {
     "name": "Ядра 150г Розумний вибір бобів арахісу несмажені",
@@ -462,17 +484,6 @@
     "url": "https://www.atbmarket.com/product/cibula-ripcasta-1-gat"
   },
   {
-    "name": "Картопля",
-    "unit": "за кг",
-    "category": "Овочі та фрукти",
-    "price": 14.49,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/27/catalog_list_27.png",
-    "url": "https://www.atbmarket.com/product/kartopla-1-gat"
-  },
-  {
     "name": "Томати тепличні",
     "unit": "за кг",
     "category": "Овочі та фрукти",
@@ -526,6 +537,17 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/114649/catalog_list_114649.jpg",
     "url": "https://www.atbmarket.com/product/mango-200-g-ziba-smatockami-mup"
+  },
+  {
+    "name": "Авокадо хаас Ready to Eat 1 шт. 1 гат.",
+    "unit": "",
+    "category": "Овочі та фрукти",
+    "price": 89.9,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/114641/catalog_list_114641.jpg",
+    "url": "https://www.atbmarket.com/product/avokado-haas-ready-to-eat-1-st-1-gat"
   },
   {
     "name": "Авокадо Reed елітне 1 шт 1 гат",
@@ -748,17 +770,6 @@
     "url": "https://www.atbmarket.com/product/hurma-persimona-1-gat"
   },
   {
-    "name": "Свiтi",
-    "unit": "за кг",
-    "category": "Овочі та фрукти",
-    "price": 139.95,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/18459/catalog_list_18459.jpg",
-    "url": "https://www.atbmarket.com/product/sviti-1-gat"
-  },
-  {
     "name": "Лохина 125 г 1 гат",
     "unit": "",
     "category": "Овочі та фрукти",
@@ -779,6 +790,17 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/12096/catalog_list_12096.jpg",
     "url": "https://www.atbmarket.com/product/gribi-pecerici-korolivski-350-g-1-gat"
+  },
+  {
+    "name": "Ківі Голд у кошику 0,5кг",
+    "unit": "",
+    "category": "Овочі та фрукти",
+    "price": 67.9,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/10838/catalog_list_10838.jpg",
+    "url": "https://www.atbmarket.com/product/kivi-gold-u-kosiku-05kg"
   },
   {
     "name": "Груша 2 гат",
@@ -880,6 +902,17 @@
     "url": "https://www.atbmarket.com/product/gribi-pecerici-05-kg-1-gat"
   },
   {
+    "name": "Томат Черрі 250гр",
+    "unit": "",
+    "category": "Овочі та фрукти",
+    "price": 81.9,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/5327/catalog_list_5327.jpg",
+    "url": "https://www.atbmarket.com/product/tomat-cerri-250gr"
+  },
+  {
     "name": "Салат Айсберг 1 гат",
     "unit": "за кг",
     "category": "Овочі та фрукти",
@@ -933,6 +966,17 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/4620/catalog_list_4620.jpg",
     "url": "https://www.atbmarket.com/product/kapusta-cervonokacanna-1gat"
+  },
+  {
+    "name": "Яблуко Екстра 4 шт 1 гат",
+    "unit": "",
+    "category": "Овочі та фрукти",
+    "price": 37.9,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/4588/catalog_list_4588.jpg",
+    "url": "https://www.atbmarket.com/product/abluko-ekstra-4-st-1-gat"
   },
   {
     "name": "Рeдиc 0,5 кг фac 1гaт",
@@ -1001,15 +1045,15 @@
     "url": "https://www.atbmarket.com/product/kivi-u-kosiku-2-gat"
   },
   {
-    "name": "Морква мита 1 гат",
+    "name": "Корінь селери",
     "unit": "за кг",
     "category": "Овочі та фрукти",
-    "price": 24.89,
+    "price": 52.95,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/1941/catalog_list_1941.jpg",
-    "url": "https://www.atbmarket.com/product/morkva-mita-1-gat"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/1923/catalog_list_1923.png",
+    "url": "https://www.atbmarket.com/product/korin-seleri-1-gat"
   },
   {
     "name": "Цибуля червона Марс",
@@ -1021,6 +1065,28 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/1884/catalog_list_1884.jpg",
     "url": "https://www.atbmarket.com/product/cibula-cervona-mars"
+  },
+  {
+    "name": "Перець солодкий червоний",
+    "unit": "за кг",
+    "category": "Овочі та фрукти",
+    "price": 145.95,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/1876/catalog_list_1876.png",
+    "url": "https://www.atbmarket.com/product/perec-solodkij-cervonij-1-gat"
+  },
+  {
+    "name": "Виноград Рожевий",
+    "unit": "за кг",
+    "category": "Овочі та фрукти",
+    "price": 119.95,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/1868/catalog_list_1868.jpg",
+    "url": "https://www.atbmarket.com/product/vinograd-rozevij-1-gat"
   },
   {
     "name": "Капуста Пекінська",
@@ -1100,17 +1166,6 @@
     "url": "https://www.atbmarket.com/product/kivi-cervone-fas-1-gat"
   },
   {
-    "name": "Авокадо хаас Ready to Eat 1 шт. 1 гат.",
-    "unit": "",
-    "category": "Овочі та фрукти",
-    "price": 89.9,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/114641/catalog_list_114641.jpg",
-    "url": "https://www.atbmarket.com/product/avokado-haas-ready-to-eat-1-st-1-gat"
-  },
-  {
     "name": "Салат 350 г День у День морська капуста з морквою по-корейськи дой/пак",
     "unit": "",
     "category": "Овочі та фрукти",
@@ -1133,15 +1188,15 @@
     "url": "https://www.atbmarket.com/product/avokado-haas-ready-to-eat-2-st-1-gat"
   },
   {
-    "name": "Авокадо вагове 1 гат",
+    "name": "Свiтi",
     "unit": "за кг",
     "category": "Овочі та фрукти",
-    "price": 179.95,
+    "price": 139.95,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/19483/catalog_list_19483.png",
-    "url": "https://www.atbmarket.com/product/avokado-vagove-1-gat"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/18459/catalog_list_18459.jpg",
+    "url": "https://www.atbmarket.com/product/sviti-1-gat"
   },
   {
     "name": "Гриби Ерінги свіжі 300 г вищ/гат",
@@ -1210,39 +1265,6 @@
     "url": "https://www.atbmarket.com/product/vinograd-sinij-1-gat"
   },
   {
-    "name": "Томат Черрі 250гр",
-    "unit": "",
-    "category": "Овочі та фрукти",
-    "price": 81.9,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/5327/catalog_list_5327.jpg",
-    "url": "https://www.atbmarket.com/product/tomat-cerri-250gr"
-  },
-  {
-    "name": "Корінь селери",
-    "unit": "за кг",
-    "category": "Овочі та фрукти",
-    "price": 52.95,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/1923/catalog_list_1923.png",
-    "url": "https://www.atbmarket.com/product/korin-seleri-1-gat"
-  },
-  {
-    "name": "Перець солодкий червоний",
-    "unit": "за кг",
-    "category": "Овочі та фрукти",
-    "price": 145.95,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/1876/catalog_list_1876.png",
-    "url": "https://www.atbmarket.com/product/perec-solodkij-cervonij-1-gat"
-  },
-  {
     "name": "Капуста цвітна",
     "unit": "за кг",
     "category": "Овочі та фрукти",
@@ -1254,6 +1276,17 @@
     "url": "https://www.atbmarket.com/product/kapusta-cvitna-1gat"
   },
   {
+    "name": "Консерви 185 г Своя Лінія Тунець подрiбнений у власному соку з/б",
+    "unit": "",
+    "category": "Бакалія",
+    "price": 30.9,
+    "old_price": 62.5,
+    "discount_percent": 51,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/30115/catalog_list_30115.jpg",
+    "url": "https://www.atbmarket.com/product/konservi-185-g-svoa-linia-tunec-podribnenij-u-vlasnomu-soku-zb"
+  },
+  {
     "name": "Майонез 160 г Своя Лінія Дитячий 67% д/пак",
     "unit": "",
     "category": "Бакалія",
@@ -1263,6 +1296,17 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/116723/catalog_list_116723.jpg",
     "url": "https://www.atbmarket.com/product/majonez-160-g-svoa-linia-ditacij-67-dpak"
+  },
+  {
+    "name": "Консерви 325г Своя лінія Курица у власному соку безкісткове",
+    "unit": "",
+    "category": "Бакалія",
+    "price": 62.9,
+    "old_price": 105.6,
+    "discount_percent": 40,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/76703/catalog_list_76703.png",
+    "url": "https://www.atbmarket.com/product/konservi-325g-svoa-linia-kurica-u-vlasnomu-soku-bezkistkove"
   },
   {
     "name": "Каша 340 г Розумний вибір гречана зі свининою",
@@ -1384,17 +1428,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/94127/catalog_list_94127.jpg",
     "url": "https://www.atbmarket.com/product/majoneznij-sous-300-g-svoa-linia-legkij-28-dpak"
-  },
-  {
-    "name": "Сніданки сухі 175 г oho Подушечки з начинкою зі смаком шоколаду м/уп",
-    "unit": "",
-    "category": "Бакалія",
-    "price": 32.9,
-    "old_price": 44.4,
-    "discount_percent": 26,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/79599/catalog_list_79599.jpg",
-    "url": "https://www.atbmarket.com/product/snidanki-suhi-175-g-oho-podusecki-z-nacinkou-zi-smakom-sokoladu-mup"
   },
   {
     "name": "Консерви 185 г Своя Лінія Тунець подрiбнений в олії з/б",
@@ -1978,17 +2011,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/4756/catalog_list_4756.jpg",
     "url": "https://www.atbmarket.com/product/gvozdika-20g-svoa-linia-cila"
-  },
-  {
-    "name": "Консерви 170 г Graal Шпроти в олії з/б",
-    "unit": "",
-    "category": "Бакалія",
-    "price": 84.8,
-    "old_price": 100.5,
-    "discount_percent": 16,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/79583/catalog_list_79583.jpg",
-    "url": "https://www.atbmarket.com/product/konservi-170-g-graal-sproti-v-olii-zb"
   },
   {
     "name": "Картопляне пюре 120 г День у День швидкого приготування з ароматом вершків м/уп",
@@ -3201,17 +3223,6 @@
     "url": "https://www.atbmarket.com/product/konservi-121g-de-luxe-foods-goods-selected-pecinka-triski-islandia"
   },
   {
-    "name": "Консерви 325г Своя лінія Курица у власному соку безкісткове",
-    "unit": "",
-    "category": "Бакалія",
-    "price": 105.6,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/76703/catalog_list_76703.png",
-    "url": "https://www.atbmarket.com/product/konservi-325g-svoa-linia-kurica-u-vlasnomu-soku-bezkistkove"
-  },
-  {
     "name": "Кукурудза цукрова 340 г Верес Європейська з цілих зерен ж/б",
     "unit": "",
     "category": "Бакалія",
@@ -3575,17 +3586,6 @@
     "url": "https://www.atbmarket.com/product/tomatna-pasta-cumak-piramidka-70g"
   },
   {
-    "name": "Консерви 185 г Своя Лінія Тунець подрiбнений у власному соку з/б",
-    "unit": "",
-    "category": "Бакалія",
-    "price": 62.5,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/30115/catalog_list_30115.jpg",
-    "url": "https://www.atbmarket.com/product/konservi-185-g-svoa-linia-tunec-podribnenij-u-vlasnomu-soku-zb"
-  },
-  {
     "name": "Пластівці 0,5 кг De Luxe Foods&Goods Selected вівсяні крупнозернові",
     "unit": "",
     "category": "Бакалія",
@@ -3864,7 +3864,7 @@
     "name": "Локшина 95 г Мівіна швидкого приготування зі смаком курки та томатів м/уп",
     "unit": "",
     "category": "Бакалія",
-    "price": 37.9,
+    "price": 40.6,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": false,
@@ -4818,17 +4818,6 @@
     "url": "https://www.atbmarket.com/product/sil-1-kg-den-u-den-kuhonna-kamana-melena-gatunok-pepsij-mup"
   },
   {
-    "name": "Цукоp 0,5 кг День у День пpeсований білий к/уп",
-    "unit": "",
-    "category": "Бакалія",
-    "price": 33.4,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/94761/catalog_list_94761.jpg",
-    "url": "https://www.atbmarket.com/product/cukop-05-kg-den-u-den-ppesovanij-bilij-kup"
-  },
-  {
     "name": "Мед 0,9 кг Своя лінія різнотрав'я ск/б",
     "unit": "",
     "category": "Бакалія",
@@ -5179,6 +5168,17 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/79681/catalog_list_79681.jpg",
     "url": "https://www.atbmarket.com/product/koncepvi-470-g-svoa-linia-ratatuj-ctepilizovani-ckb"
+  },
+  {
+    "name": "Консерви 170 г Graal Шпроти в олії з/б",
+    "unit": "",
+    "category": "Бакалія",
+    "price": 100.5,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/79583/catalog_list_79583.jpg",
+    "url": "https://www.atbmarket.com/product/konservi-170-g-graal-sproti-v-olii-zb"
   },
   {
     "name": "Консерви 202г De Luxe Foods & Goods Selected Печiнка трiски Ісландія",
@@ -6952,6 +6952,17 @@
     "url": "https://www.atbmarket.com/product/borosno-5-kg-hutorok-psenicne"
   },
   {
+    "name": "Сніданки сухі 175 г oho Подушечки з начинкою зі смаком шоколаду м/уп",
+    "unit": "",
+    "category": "Бакалія",
+    "price": 32.9,
+    "old_price": 44.4,
+    "discount_percent": 26,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/79599/catalog_list_79599.jpg",
+    "url": "https://www.atbmarket.com/product/snidanki-suhi-175-g-oho-podusecki-z-nacinkou-zi-smakom-sokoladu-mup"
+  },
+  {
     "name": "Сіль кyхoнна камяна мелена вагoва",
     "unit": "за кг",
     "category": "Бакалія",
@@ -6961,6 +6972,17 @@
     "out_of_stock": true,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/106867/catalog_list_106867.jpg",
     "url": "https://www.atbmarket.com/product/sil-kuhonna-kamana-melena-vagova"
+  },
+  {
+    "name": "Цукоp 0,5 кг День у День пpeсований білий к/уп",
+    "unit": "",
+    "category": "Бакалія",
+    "price": 33.4,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/94761/catalog_list_94761.jpg",
+    "url": "https://www.atbmarket.com/product/cukop-05-kg-den-u-den-ppesovanij-bilij-kup"
   },
   {
     "name": "Сухий сніданок 350 г Good morning, Granola (сухофрукти, шоколад)",
@@ -7161,6 +7183,17 @@
     "url": "https://www.atbmarket.com/product/bifidojogurt-260-g-aktivia-ananas-12-pbut"
   },
   {
+    "name": "Продукт сирковий глазурований 36 г Мушкетер Тірамісу 15% фольга",
+    "unit": "",
+    "category": "Молочні продукти та яйця",
+    "price": 8.9,
+    "old_price": 12.4,
+    "discount_percent": 28,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/48103/catalog_list_48103.jpg",
+    "url": "https://www.atbmarket.com/product/produkt-sirkovij-glazurovanij-36-g-musketer-tiramisu-15-folga"
+  },
+  {
     "name": "Сметана 300 г Яготинська 15% п/стакан",
     "unit": "",
     "category": "Молочні продукти та яйця",
@@ -7269,17 +7302,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/99343/catalog_list_99343.jpg",
     "url": "https://www.atbmarket.com/product/maslo-220-g-agotinske-toplene-99-pvannocka"
-  },
-  {
-    "name": "Масло 180 г Біло солоне солодковершкове екстра 80% фольга",
-    "unit": "",
-    "category": "Молочні продукти та яйця",
-    "price": 98.4,
-    "old_price": 126.9,
-    "discount_percent": 22,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/99349/catalog_list_99349.jpg",
-    "url": "https://www.atbmarket.com/product/maslo-180-g-bilo-solone-solodkoverskove-ekstra-80-folga"
   },
   {
     "name": "Молоко 370 г День у День згущене варене Іриска нежирне з/б",
@@ -7546,17 +7568,6 @@
     "url": "https://www.atbmarket.com/product/jogurt-075-kg-zlagoda-bilij-bez-cukru-1-pbut"
   },
   {
-    "name": "Сметана 280 г Злагода 20% п/стакан",
-    "unit": "",
-    "category": "Молочні продукти та яйця",
-    "price": 45.9,
-    "old_price": 55.8,
-    "discount_percent": 18,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/118623/catalog_list_118623.jpg",
-    "url": "https://www.atbmarket.com/product/smetana-280-g-zlagoda-20-pstakan"
-  },
-  {
     "name": "Йогурт 185 г Агуня Імуніті Малина-чорна смородина-шипшина 2,7% п/бут",
     "unit": "",
     "category": "Молочні продукти та яйця",
@@ -7764,6 +7775,17 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/112375/catalog_list_112375.jpg",
     "url": "https://www.atbmarket.com/product/kefir-084-kg-ferma-25"
+  },
+  {
+    "name": "Десерт сирковий аерований 110 г Дольче персик та білий шоколад 3,4% п/стакан",
+    "unit": "",
+    "category": "Молочні продукти та яйця",
+    "price": 24.4,
+    "old_price": 29.5,
+    "discount_percent": 17,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/113627/catalog_list_113627.jpg",
+    "url": "https://www.atbmarket.com/product/desert-sirkovij-aerovanij-110-g-dolce-persik-ta-bilij-sokolad-34-pstakan"
   },
   {
     "name": "Десерт сирковий аерований 110 г Дольче абрикос 3,4% п/стакан",
@@ -8030,17 +8052,6 @@
     "url": "https://www.atbmarket.com/product/sirok-90-g-zlagoda-ditacij-z-cukrom-ta-kuragou-45-folga"
   },
   {
-    "name": "Молоко 0,87 кг ПростоНаше пряжене 2,5% п/бут",
-    "unit": "",
-    "category": "Молочні продукти та яйця",
-    "price": 61.9,
-    "old_price": 70.8,
-    "discount_percent": 13,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/120799/catalog_list_120799.jpg",
-    "url": "https://www.atbmarket.com/product/moloko-087-kg-prostonase-prazene-25-pbut"
-  },
-  {
     "name": "Йогурт 280 г Дольче Вишня-чіа 3,2% п/стакан",
     "unit": "",
     "category": "Молочні продукти та яйця",
@@ -8193,17 +8204,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/99771/catalog_list_99771.jpg",
     "url": "https://www.atbmarket.com/product/moloko-08-kg-svoa-linia-25-pbut"
-  },
-  {
-    "name": "Молоко 450 г Щоденний збір пастеризоване 3,2% п/ет",
-    "unit": "",
-    "category": "Молочні продукти та яйця",
-    "price": 24.2,
-    "old_price": 26.9,
-    "discount_percent": 10,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/93993/catalog_list_93993.jpg",
-    "url": "https://www.atbmarket.com/product/moloko-450-g-sodennij-zbir-pasterizovane-32-pet"
   },
   {
     "name": "Молоко 0,9 кг Молокія ультрапастеризоване 2,5% тетра-фіно",
@@ -8781,7 +8781,7 @@
     "name": "Масло 180 г Білоцерківське солодковершкове Екстра 82,0% еколін",
     "unit": "",
     "category": "Молочні продукти та яйця",
-    "price": 123.2,
+    "price": 116.9,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": false,
@@ -9097,28 +9097,6 @@
     "url": "https://www.atbmarket.com/product/sirok-glazurovanij-36-g-pro-milk-proteinovij-zi-smakom-vanili-18-folga"
   },
   {
-    "name": "Сир кисломолочний зернистий 180 г PRO MILK Pro Сніданок Манго-маракуйя-злаки 6,2 % п/стакан",
-    "unit": "",
-    "category": "Молочні продукти та яйця",
-    "price": 68.2,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/120663/catalog_list_120663.jpg",
-    "url": "https://www.atbmarket.com/product/sir-kislomolocnij-zernistij-180-g-pro-milk-pro-snidanok-mango-marakuja-zlaki-62-pstakan"
-  },
-  {
-    "name": "Сирок глазурований 36 г Злагода Персик 23% фольга",
-    "unit": "",
-    "category": "Молочні продукти та яйця",
-    "price": 19.2,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/120657/catalog_list_120657.jpg",
-    "url": "https://www.atbmarket.com/product/sirok-glazurovanij-36-g-zlagoda-persik-23-folga"
-  },
-  {
     "name": "Дeсepт сиpкoвий 180 г Дoльчe Полуниця-ківі та шoкoлад 3,4% п/стакан",
     "unit": "",
     "category": "Молочні продукти та яйця",
@@ -9133,7 +9111,7 @@
     "name": "Сметана 280 г Злагода 15% п/стакан",
     "unit": "",
     "category": "Молочні продукти та яйця",
-    "price": 49.6,
+    "price": 48.9,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": false,
@@ -9295,17 +9273,6 @@
     "url": "https://www.atbmarket.com/product/masa-sirkova-solodka-140-g-den-u-den-z-rodzinkami-10-folga"
   },
   {
-    "name": "Вepшки 0,5 кг Laciata 30 % тетра-пак, Польща",
-    "unit": "",
-    "category": "Молочні продукти та яйця",
-    "price": 167.9,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/112913/catalog_list_112913.jpg",
-    "url": "https://www.atbmarket.com/product/vepski-500-ml-laciata-30-tetra-pak-polsa"
-  },
-  {
     "name": "Сирок 90 г День у День дитячий солодкий 13,5% фольга",
     "unit": "",
     "category": "Молочні продукти та яйця",
@@ -9370,17 +9337,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/111627/catalog_list_111627.jpg",
     "url": "https://www.atbmarket.com/product/sir-kislomolocnij-300-g-svoa-linia-5-pstakan-b"
-  },
-  {
-    "name": "Сир кисломолочний 300 г День у День 5% п/ет (шайба)",
-    "unit": "",
-    "category": "Молочні продукти та яйця",
-    "price": 79.9,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/111619/catalog_list_111619.jpg",
-    "url": "https://www.atbmarket.com/product/sir-kislomolocnij-300-g-den-u-den-5-pet-sajba"
   },
   {
     "name": "Йoгуpт 0,9 кг День у День пepсик-маpакуйя 1% п/eт",
@@ -9713,6 +9669,17 @@
     "url": "https://www.atbmarket.com/product/margarin-250-g-rozumnij-vibir-verskovij-osobij-72-folga"
   },
   {
+    "name": "Масло 180 г Біло солоне солодковершкове екстра 80% фольга",
+    "unit": "",
+    "category": "Молочні продукти та яйця",
+    "price": 136.4,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/99349/catalog_list_99349.jpg",
+    "url": "https://www.atbmarket.com/product/maslo-180-g-bilo-solone-solodkoverskove-ekstra-80-folga"
+  },
+  {
     "name": "Продукт молоковмісний сметанний 400г Розумний вибір Селянський 20%",
     "unit": "",
     "category": "Молочні продукти та яйця",
@@ -9744,17 +9711,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/98265/catalog_list_98265.jpg",
     "url": "https://www.atbmarket.com/product/jogurt-05-kg-galicina-karpatskij-bez-cukru-3-pvidro"
-  },
-  {
-    "name": "Сирок 90 г Злагода Дитячий Полуниця та цукати полуниці 4,5% фольга",
-    "unit": "",
-    "category": "Молочні продукти та яйця",
-    "price": 29.9,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/98259/catalog_list_98259.jpg",
-    "url": "https://www.atbmarket.com/product/sirok-90-g-zlagoda-ditacij-polunica-ta-cukati-polunici-45-folga"
   },
   {
     "name": "Закваска 0,75 кг Лактонія вишня-банан-льон 1,5% п/бут",
@@ -9900,6 +9856,17 @@
     "url": "https://www.atbmarket.com/product/moloko-09-kg-sodennij-zbir-pasterizovane-25-petg"
   },
   {
+    "name": "Кефір 0,9 кг Щоденний збір 2,5% п/е(Г)",
+    "unit": "",
+    "category": "Молочні продукти та яйця",
+    "price": 56.4,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/93983/catalog_list_93983.jpg",
+    "url": "https://www.atbmarket.com/product/kefir-09-kg-sodennij-zbir-25-peg"
+  },
+  {
     "name": "Молоко 0,9 кг Щоденний збір пастеризоване 3,2% п/ет",
     "unit": "",
     "category": "Молочні продукти та яйця",
@@ -9942,17 +9909,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/93947/catalog_list_93947.jpg",
     "url": "https://www.atbmarket.com/product/jogurt-250-g-molokia-polunica-14"
-  },
-  {
-    "name": "Йогурт 0,75 кг Злагода Смузі Манго-Банан-Льон 1,2% п/бут",
-    "unit": "",
-    "category": "Молочні продукти та яйця",
-    "price": 88.9,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/91427/catalog_list_91427.jpg",
-    "url": "https://www.atbmarket.com/product/jogurt-075-kg-zlagoda-smuzi-mango-banan-lon-12-pbut"
   },
   {
     "name": "Йогурт 0,75 кг Злагода Смузі Полуниця-Банан-Льон 1,2% п/бут",
@@ -10230,26 +10186,26 @@
     "url": "https://www.atbmarket.com/product/bifidojogurt-270-g-agotinskij-15-pbut"
   },
   {
-    "name": "Ряжанка 450 г Ягoтинська 3,2% п/бут",
+    "name": "Десерт сирковий аерований 170 г Дольче ананасовий ф'южн 3,4% п/стакан",
     "unit": "",
     "category": "Молочні продукти та яйця",
-    "price": 48.9,
+    "price": 46.7,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/68907/catalog_list_68907.jpg",
-    "url": "https://www.atbmarket.com/product/razanka-450-g-agotinska-32-pbut"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/68951/catalog_list_68951.jpg",
+    "url": "https://www.atbmarket.com/product/desert-sirkovij-aerovanij-170-g-dolce-ananasovij-fuzn-34-pstakan"
   },
   {
-    "name": "Яйце куряче 10 шт Квочка Домашнє вища категорія фас",
+    "name": "Десерт сирковий аерований 170 г Дольче ягідний ф'южн 3,4% п/стакан",
     "unit": "",
     "category": "Молочні продукти та яйця",
-    "price": 81.9,
+    "price": 46.7,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/68691/catalog_list_68691.jpg",
-    "url": "https://www.atbmarket.com/product/ajce-kurace-10-st-kvocka-domasne-visa-kategoria-fas"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/68911/catalog_list_68911.jpg",
+    "url": "https://www.atbmarket.com/product/desert-sirkovij-aerovanij-170-g-dolce-agidnij-fuzn-34-pstakan"
   },
   {
     "name": "Бісквітне тістечко 27 г MINIONS з молочним кремом з банановою начинкою глазуроване м/уп",
@@ -10384,6 +10340,17 @@
     "url": "https://www.atbmarket.com/product/maslo-180-g-bilocerkivske-solodkoverskove-ekstra-bezlaktozne-82-folga"
   },
   {
+    "name": "Десерт сирковий аерований 170 г Дольче Вишневий ф'южн 3,4% п/стакан",
+    "unit": "",
+    "category": "Молочні продукти та яйця",
+    "price": 46.7,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/52691/catalog_list_52691.jpg",
+    "url": "https://www.atbmarket.com/product/desert-sirkovij-aerovanij-170-g-dolce-visnevij-34"
+  },
+  {
     "name": "Масло 180 г Злагода Шоколадне вершкове з какао 62% фольга",
     "unit": "",
     "category": "Молочні продукти та яйця",
@@ -10459,6 +10426,17 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/37225/catalog_list_37225.jpg",
     "url": "https://www.atbmarket.com/product/sir-zernistij-150g-premialle-polunica-7"
+  },
+  {
+    "name": "Йогурт 115 г Дольче двошаровий манго 3,2%",
+    "unit": "",
+    "category": "Молочні продукти та яйця",
+    "price": 23.4,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/35231/catalog_list_35231.jpg",
+    "url": "https://www.atbmarket.com/product/jogurt-115-g-dolce-dvosarovij-mango-32"
   },
   {
     "name": "Продукт рослинно-вершковий 180 г Ваш молочник селянський 72,5% еколін",
@@ -10593,17 +10571,6 @@
     "url": "https://www.atbmarket.com/product/maslo-200g-de-luxe-foods-goods-selected-solodkoverskove-82-ziry"
   },
   {
-    "name": "Йогурт 200 г Злагода Абрикос-морква 2,8%",
-    "unit": "",
-    "category": "Молочні продукти та яйця",
-    "price": 31.8,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/13127/catalog_list_13127.jpg",
-    "url": "https://www.atbmarket.com/product/jogurt-200-g-zlagoda-abrikos-morkva-28"
-  },
-  {
     "name": "Вершки 0,5 кг Premialle 33%",
     "unit": "",
     "category": "Молочні продукти та яйця",
@@ -10692,26 +10659,48 @@
     "url": "https://www.atbmarket.com/product/sirok-glazurovanij-36g-zlagoda-z-aromatom-vanilinu-23"
   },
   {
-    "name": "Продукт сирковий глазурований 36 г Мушкетер Тірамісу 15% фольга",
+    "name": "Сметана 280 г Злагода 20% п/стакан",
     "unit": "",
     "category": "Молочні продукти та яйця",
-    "price": 8.9,
-    "old_price": 12.4,
-    "discount_percent": 28,
+    "price": 45.9,
+    "old_price": 55.8,
+    "discount_percent": 18,
     "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/48103/catalog_list_48103.jpg",
-    "url": "https://www.atbmarket.com/product/produkt-sirkovij-glazurovanij-36-g-musketer-tiramisu-15-folga"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/118623/catalog_list_118623.jpg",
+    "url": "https://www.atbmarket.com/product/smetana-280-g-zlagoda-20-pstakan"
   },
   {
-    "name": "Десерт сирковий аерований 110 г Дольче персик та білий шоколад 3,4% п/стакан",
+    "name": "Молоко 0,87 кг ПростоНаше пряжене 2,5% п/бут",
     "unit": "",
     "category": "Молочні продукти та яйця",
-    "price": 24.4,
-    "old_price": 29.5,
-    "discount_percent": 17,
+    "price": 61.9,
+    "old_price": 70.8,
+    "discount_percent": 13,
     "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/113627/catalog_list_113627.jpg",
-    "url": "https://www.atbmarket.com/product/desert-sirkovij-aerovanij-110-g-dolce-persik-ta-bilij-sokolad-34-pstakan"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/120799/catalog_list_120799.jpg",
+    "url": "https://www.atbmarket.com/product/moloko-087-kg-prostonase-prazene-25-pbut"
+  },
+  {
+    "name": "Молоко 450 г Щоденний збір пастеризоване 3,2% п/ет",
+    "unit": "",
+    "category": "Молочні продукти та яйця",
+    "price": 24.2,
+    "old_price": 26.9,
+    "discount_percent": 10,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/93993/catalog_list_93993.jpg",
+    "url": "https://www.atbmarket.com/product/moloko-450-g-sodennij-zbir-pasterizovane-32-pet"
+  },
+  {
+    "name": "Сир кисломолочний зернистий 180 г PRO MILK Pro Сніданок Манго-маракуйя-злаки 6,2 % п/стакан",
+    "unit": "",
+    "category": "Молочні продукти та яйця",
+    "price": 68.2,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/120663/catalog_list_120663.jpg",
+    "url": "https://www.atbmarket.com/product/sir-kislomolocnij-zernistij-180-g-pro-milk-pro-snidanok-mango-marakuja-zlaki-62-pstakan"
   },
   {
     "name": "Сир кисломолочний зернистий 180 г PRO MILK Pro Сніданок злаки 6,2 % п/стакан",
@@ -10725,15 +10714,48 @@
     "url": "https://www.atbmarket.com/product/sir-kislomolocnij-zernistij-180-g-pro-milk-pro-snidanok-zlaki-62-pstakan"
   },
   {
-    "name": "Кефір 0,9 кг Щоденний збір 2,5% п/е(Г)",
+    "name": "Сирок глазурований 36 г Злагода Персик 23% фольга",
     "unit": "",
     "category": "Молочні продукти та яйця",
-    "price": 56.4,
+    "price": 19.2,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/93983/catalog_list_93983.jpg",
-    "url": "https://www.atbmarket.com/product/kefir-09-kg-sodennij-zbir-25-peg"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/120657/catalog_list_120657.jpg",
+    "url": "https://www.atbmarket.com/product/sirok-glazurovanij-36-g-zlagoda-persik-23-folga"
+  },
+  {
+    "name": "Вepшки 0,5 кг Laciata 30 % тетра-пак, Польща",
+    "unit": "",
+    "category": "Молочні продукти та яйця",
+    "price": 167.9,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/112913/catalog_list_112913.jpg",
+    "url": "https://www.atbmarket.com/product/vepski-500-ml-laciata-30-tetra-pak-polsa"
+  },
+  {
+    "name": "Сир кисломолочний 300 г День у День 5% п/ет (шайба)",
+    "unit": "",
+    "category": "Молочні продукти та яйця",
+    "price": 79.9,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/111619/catalog_list_111619.jpg",
+    "url": "https://www.atbmarket.com/product/sir-kislomolocnij-300-g-den-u-den-5-pet-sajba"
+  },
+  {
+    "name": "Сирок 90 г Злагода Дитячий Полуниця та цукати полуниці 4,5% фольга",
+    "unit": "",
+    "category": "Молочні продукти та яйця",
+    "price": 29.9,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/98259/catalog_list_98259.jpg",
+    "url": "https://www.atbmarket.com/product/sirok-90-g-zlagoda-ditacij-polunica-ta-cukati-polunici-45-folga"
   },
   {
     "name": "Кефір 0,9 кг Щоденний збір нежирний п/ет",
@@ -10747,15 +10769,26 @@
     "url": "https://www.atbmarket.com/product/kefir-09-kg-sodennij-zbir-nezirnij-pet"
   },
   {
-    "name": "Йогурт 115 г Дольче двошаровий манго 3,2%",
+    "name": "Йогурт 0,75 кг Злагода Смузі Манго-Банан-Льон 1,2% п/бут",
     "unit": "",
     "category": "Молочні продукти та яйця",
-    "price": 23.4,
+    "price": 88.9,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/35231/catalog_list_35231.jpg",
-    "url": "https://www.atbmarket.com/product/jogurt-115-g-dolce-dvosarovij-mango-32"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/91427/catalog_list_91427.jpg",
+    "url": "https://www.atbmarket.com/product/jogurt-075-kg-zlagoda-smuzi-mango-banan-lon-12-pbut"
+  },
+  {
+    "name": "Йогурт 200 г Злагода Абрикос-морква 2,8%",
+    "unit": "",
+    "category": "Молочні продукти та яйця",
+    "price": 31.8,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/13127/catalog_list_13127.jpg",
+    "url": "https://www.atbmarket.com/product/jogurt-200-g-zlagoda-abrikos-morkva-28"
   },
   {
     "name": "Нaпій 250 мл Burn зі смаком Яблуко-Ківі eнepгeтичний ж/б",
@@ -11262,17 +11295,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/5258/catalog_list_5258.jpg",
     "url": "https://www.atbmarket.com/product/voda-05l-aquarte-focus-zensen-abluko-ne-gazovana"
-  },
-  {
-    "name": "Напій 0,5 л NON STOP JUICE SERIES мультифрукт безалкогольний енергетичний сильногазований ж/б",
-    "unit": "",
-    "category": "Напої безалкогольні",
-    "price": 42.7,
-    "old_price": 49.9,
-    "discount_percent": 14,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/111791/catalog_list_111791.jpg",
-    "url": "https://www.atbmarket.com/product/napij-05-l-non-stop-juice-series-multifrukt-bezalkogolnij-energeticnij-silnogazovanij-zb"
   },
   {
     "name": "Вода 2л Карпатська джерельна негазована",
@@ -12076,6 +12098,28 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/116971/catalog_list_116971.jpg",
     "url": "https://www.atbmarket.com/product/napij-05l-buvette-healthy-tea-zi-smakom-karkade-zuravlini-ta-mati"
+  },
+  {
+    "name": "Напій 0,75 л Ustronianka ізотонічний зі смаком лимона з додаванням вітамінів ПЕТ Польща",
+    "unit": "",
+    "category": "Напої безалкогольні",
+    "price": 45.7,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/116965/catalog_list_116965.png",
+    "url": "https://www.atbmarket.com/product/napij-075-l-ustronianka-izotonicnij-zi-smakom-limona-z-dodavannam-vitaminiv-pet-polsa"
+  },
+  {
+    "name": "Напій 0,75 л Ustronianka ізотонічний зі смаком мультифрукта з додаванням вітамінів ПЕТ Польща",
+    "unit": "",
+    "category": "Напої безалкогольні",
+    "price": 45.7,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/116963/catalog_list_116963.png",
+    "url": "https://www.atbmarket.com/product/napij-075-l-ustronianka-izotonicnij-zi-smakom-multifrukta-z-dodavannam-vitaminiv-pet-polsa"
   },
   {
     "name": "Напій 0,5л Живчик газований",
@@ -13310,6 +13354,17 @@
     "url": "https://www.atbmarket.com/product/nektar-193l-nas-sik-vinograd-abluko-ta-abluko-vinograd"
   },
   {
+    "name": "Напій 0,5 л NON STOP JUICE SERIES мультифрукт безалкогольний енергетичний сильногазований ж/б",
+    "unit": "",
+    "category": "Напої безалкогольні",
+    "price": 42.7,
+    "old_price": 49.9,
+    "discount_percent": 14,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/111791/catalog_list_111791.jpg",
+    "url": "https://www.atbmarket.com/product/napij-05-l-non-stop-juice-series-multifrukt-bezalkogolnij-energeticnij-silnogazovanij-zb"
+  },
+  {
     "name": "Напій Sprite 2 л",
     "unit": "",
     "category": "Напої безалкогольні",
@@ -13431,17 +13486,6 @@
     "url": "https://www.atbmarket.com/product/gomilka-kurcat-brojleriv-nasa-raba-deli-v-marinadi-oholodzena-vakupak"
   },
   {
-    "name": "Печінка куряча Наша Ряба охолоджена 700 г",
-    "unit": "",
-    "category": "М'ясо",
-    "price": 110.4,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/98937/catalog_list_98937.jpg",
-    "url": "https://www.atbmarket.com/product/pecinka-07-kg-kurcat-brojleriv-nasa-raba-oholodzena-vakupak"
-  },
-  {
     "name": "Асорті (шлунок, гомілка, нижня частина спинки) куряче Наша Ряба охолоджене упаковка",
     "unit": "за кг",
     "category": "М'ясо",
@@ -13462,6 +13506,17 @@
     "out_of_stock": true,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/81041/catalog_list_81041.png",
     "url": "https://www.atbmarket.com/product/fars-05-kg-vinnicki-kurcata-kuracij-oholodzenij-gazupak"
+  },
+  {
+    "name": "Печінка куряча Наша Ряба охолоджена 700 г",
+    "unit": "",
+    "category": "М'ясо",
+    "price": 110.4,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/98937/catalog_list_98937.jpg",
+    "url": "https://www.atbmarket.com/product/pecinka-07-kg-kurcat-brojleriv-nasa-raba-oholodzena-vakupak"
   },
   {
     "name": "Стегно курчат-бройлерів Чебатурочка охолоджене",
@@ -13541,6 +13596,17 @@
     "url": "https://www.atbmarket.com/product/fars-05-kg-globino-asorti-oholodzenij"
   },
   {
+    "name": "Четвертина задня курчат-бройлерів Чебатурочка охолоджена газ/упак",
+    "unit": "за кг",
+    "category": "М'ясо",
+    "price": 103.79,
+    "old_price": 115.35,
+    "discount_percent": 10,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/11974/catalog_list_11974.jpg",
+    "url": "https://www.atbmarket.com/product/cetvertina-zadna-kurcat-brojleriv-cebaturocka-oholodzena-gazupak"
+  },
+  {
     "name": "Котлета для бургера 240 гр Глобино яловича охолоджена вак/упак",
     "unit": "",
     "category": "М'ясо",
@@ -13550,6 +13616,17 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/37517/catalog_list_37517.jpg",
     "url": "https://www.atbmarket.com/product/kotleta-240-gr-globino-dla-burgera-alovica-vakupak"
+  },
+  {
+    "name": "Лопаткова частина Глобино свиняча охолоджена",
+    "unit": "за кг",
+    "category": "М'ясо",
+    "price": 226.89,
+    "old_price": 243.99,
+    "discount_percent": 7,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/16734/catalog_list_16734.jpg",
+    "url": "https://www.atbmarket.com/product/lopatkova-castina-globino-svinaca-oholodzena"
   },
   {
     "name": "Філе мале Міньйон куряче Наша Ряба охолоджене упаковка",
@@ -13618,15 +13695,15 @@
     "url": "https://www.atbmarket.com/product/stegno-kurcat-brojleriv-svoa-linia-vognana-salsa-v-marinadi-oholodzene"
   },
   {
-    "name": "Тушка куряча Наша Ряба охолоджена вакумна упаковка",
+    "name": "Гомілка куряча Наша Ряба охолоджена вакуумна упаковка",
     "unit": "за кг",
     "category": "М'ясо",
-    "price": 135.59,
+    "price": 146.99,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/82195/catalog_list_82195.jpg",
-    "url": "https://www.atbmarket.com/product/tuska-kurcat-brojleriv-nasa-raba-oholodzena"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/68619/catalog_list_68619.png",
+    "url": "https://www.atbmarket.com/product/gomilka-kurcat-brojleriv-nasa-raba-oholodzena-lotok"
   },
   {
     "name": "Піджарка 0,7кг Своя Лінія зі свинини охолоджена",
@@ -13684,6 +13761,17 @@
     "url": "https://www.atbmarket.com/product/kovbaski-05-kg-kuraci-cemaso-tradicijni-oholodzeni-gazupak"
   },
   {
+    "name": "Крило курчат-бройлерів Чебатурочка охолоджене",
+    "unit": "за кг",
+    "category": "М'ясо",
+    "price": 132.75,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/117793/catalog_list_117793.jpg",
+    "url": "https://www.atbmarket.com/product/krilo-kurcat-brojleriv-cebaturocka-oholodzene"
+  },
+  {
     "name": "Шашлик #ЦЕМ'ЯСО Кавказький в маринаді охолоджений вак/упак",
     "unit": "за кг",
     "category": "М'ясо",
@@ -13739,6 +13827,17 @@
     "url": "https://www.atbmarket.com/product/kovbaski-06-kg-dla-grila-ce-maso-munhenski-svinaci-oholodzeni-gazupak"
   },
   {
+    "name": "Реберця для грилю Глобино в маринаді свинячі охолоджeні вак/упак",
+    "unit": "за кг",
+    "category": "М'ясо",
+    "price": 365.99,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/48307/catalog_list_48307.jpg",
+    "url": "https://www.atbmarket.com/product/reberca-dla-grilu-globino-v-marinadi-svinaci-oholodzeni-vakupak"
+  },
+  {
     "name": "Окіст Глобино для смаження свинячий охолоджений",
     "unit": "за кг",
     "category": "М'ясо",
@@ -13772,48 +13871,15 @@
     "url": "https://www.atbmarket.com/product/stejk-globino-zi-svinacoi-korejki-v-visnevomu-marinadi-oholodzenij"
   },
   {
-    "name": "Четвертина задня курчат-бройлерів Чебатурочка охолоджена газ/упак",
+    "name": "Тушка куряча Наша Ряба охолоджена вакумна упаковка",
     "unit": "за кг",
     "category": "М'ясо",
-    "price": 103.79,
-    "old_price": 115.35,
-    "discount_percent": 10,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/11974/catalog_list_11974.jpg",
-    "url": "https://www.atbmarket.com/product/cetvertina-zadna-kurcat-brojleriv-cebaturocka-oholodzena-gazupak"
-  },
-  {
-    "name": "Лопаткова частина Глобино свиняча охолоджена",
-    "unit": "за кг",
-    "category": "М'ясо",
-    "price": 226.89,
-    "old_price": 243.99,
-    "discount_percent": 7,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/16734/catalog_list_16734.jpg",
-    "url": "https://www.atbmarket.com/product/lopatkova-castina-globino-svinaca-oholodzena"
-  },
-  {
-    "name": "Крило курчат-бройлерів Чебатурочка охолоджене",
-    "unit": "за кг",
-    "category": "М'ясо",
-    "price": 132.75,
+    "price": 135.59,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/117793/catalog_list_117793.jpg",
-    "url": "https://www.atbmarket.com/product/krilo-kurcat-brojleriv-cebaturocka-oholodzene"
-  },
-  {
-    "name": "Реберця для грилю Глобино в маринаді свинячі охолоджeні вак/упак",
-    "unit": "за кг",
-    "category": "М'ясо",
-    "price": 365.99,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/48307/catalog_list_48307.jpg",
-    "url": "https://www.atbmarket.com/product/reberca-dla-grilu-globino-v-marinadi-svinaci-oholodzeni-vakupak"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/82195/catalog_list_82195.jpg",
+    "url": "https://www.atbmarket.com/product/tuska-kurcat-brojleriv-nasa-raba-oholodzena"
   },
   {
     "name": "Сир плавлений 70 г Своя лінія Класичний 38% фольга",
@@ -14124,17 +14190,6 @@
     "url": "https://www.atbmarket.com/product/kpem-sir-160-g-bilo-original-55-pvannocka"
   },
   {
-    "name": "Сир 125г DAS IST Моццарелла в розсолі 45%",
-    "unit": "",
-    "category": "Сири",
-    "price": 58.9,
-    "old_price": 70.9,
-    "discount_percent": 17,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/29233/catalog_list_29233.jpg",
-    "url": "https://www.atbmarket.com/product/sir-125g-das-ist-moccarella-v-rozsoli-45"
-  },
-  {
     "name": "Сир м'який Карпатська Легенда Бринза з пряними травами вак/уп",
     "unit": "за кг",
     "category": "Сири",
@@ -14358,7 +14413,7 @@
     "name": "Сир м'який 180 г Золотий резерв чеддеризований Моцарелла 45% к/уп",
     "unit": "",
     "category": "Сири",
-    "price": 107.6,
+    "price": 99.9,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": false,
@@ -14710,7 +14765,7 @@
     "name": "Сир м'який 180 г Золотий Резерв CHEDD чеддеризований зі смаком сиру \"Чеддер\" 45% флоу-пак",
     "unit": "",
     "category": "Сири",
-    "price": 107.6,
+    "price": 99.9,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": false,
@@ -14820,7 +14875,7 @@
     "name": "Сир м'який 180 г Золотий резерв чеддеризований Сулугуні 45% к/уп",
     "unit": "",
     "category": "Сири",
-    "price": 107.6,
+    "price": 99.9,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": false,
@@ -14927,6 +14982,17 @@
     "url": "https://www.atbmarket.com/product/produkt-molokovmisnij-sirnij-100-g-siroizka-rozsilnij-palicka-45-vup"
   },
   {
+    "name": "Сир 125г DAS IST Моццарелла в розсолі 45%",
+    "unit": "",
+    "category": "Сири",
+    "price": 58.9,
+    "old_price": 70.9,
+    "discount_percent": 17,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/29233/catalog_list_29233.jpg",
+    "url": "https://www.atbmarket.com/product/sir-125g-das-ist-moccarella-v-rozsoli-45"
+  },
+  {
     "name": "Сир м'який Карпатська Легенда Бринза вак/уп",
     "unit": "за кг",
     "category": "Сири",
@@ -15024,17 +15090,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/112635/catalog_list_112635.jpg",
     "url": "https://www.atbmarket.com/product/cukerki-svoa-linia-carivnij-vinocok-vagovi"
-  },
-  {
-    "name": "Цукерки Жако Пташине молоко",
-    "unit": "за кг",
-    "category": "Кондитерські вироби",
-    "price": 175.9,
-    "old_price": 271.8,
-    "discount_percent": 35,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/791/catalog_list_791.jpg",
-    "url": "https://www.atbmarket.com/product/cukerki-zako-ptasine-moloko"
   },
   {
     "name": "Шоколад 90г Millennium Пористий Чорний",
@@ -15136,17 +15191,6 @@
     "url": "https://www.atbmarket.com/product/batoncik-42g-nestle-lion"
   },
   {
-    "name": "Вафля 26 г Nestle Nesquik DUO в молочному шоколаді",
-    "unit": "",
-    "category": "Кондитерські вироби",
-    "price": 10.2,
-    "old_price": 14.9,
-    "discount_percent": 32,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/117963/catalog_list_117963.jpg",
-    "url": "https://www.atbmarket.com/product/vafla-26-g-nestle-nesquik-duo-v-molocnomu-sokoladi"
-  },
-  {
     "name": "Цукерки Cвоя Лінія Crackly Crush з арахісом, нугою та карамеллю та ірисні з арахісом вагові",
     "unit": "за кг",
     "category": "Кондитерські вироби",
@@ -15211,28 +15255,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/51815/catalog_list_51815.jpg",
     "url": "https://www.atbmarket.com/product/tistecko-biskvitne-280-g-svoa-linia-z-nacinkou-iz-dodavannam-kakao-mup"
-  },
-  {
-    "name": "Печиво 300г Розумний вибір Чик-Чик здобне",
-    "unit": "",
-    "category": "Кондитерські вироби",
-    "price": 62.9,
-    "old_price": 84.4,
-    "discount_percent": 25,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/94085/catalog_list_94085.jpg",
-    "url": "https://www.atbmarket.com/product/pecivo-300g-rozumnij-vibir-cik-cik-zdobne"
-  },
-  {
-    "name": "Пряники 300 г Своя Лінія зі смаком абрикосу м/уп",
-    "unit": "",
-    "category": "Кондитерські вироби",
-    "price": 36.5,
-    "old_price": 48.9,
-    "discount_percent": 25,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/68809/catalog_list_68809.jpg",
-    "url": "https://www.atbmarket.com/product/praniki-300-g-svoa-linia-zi-smakom-abrikosu-mup"
   },
   {
     "name": "Печиво 280 г Своя лінія Амеріканєр здобне к/уп",
@@ -15664,6 +15686,17 @@
     "url": "https://www.atbmarket.com/product/cukerki-352-g-rosen-kiiv-vecirnij-kup"
   },
   {
+    "name": "Тістечко 210 г Вацак заварні Профітролі з масляним кремом  п/уп",
+    "unit": "",
+    "category": "Кондитерські вироби",
+    "price": 77.4,
+    "old_price": 93.8,
+    "discount_percent": 17,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/36111/catalog_list_36111.jpg",
+    "url": "https://www.atbmarket.com/product/tistecko-210-g-vacak-zavarni-profitroli-z-maslanim-kremom-pup"
+  },
+  {
     "name": "Тістечко бісквітне 175 г Мілка з шоколадною начинкою і шматочками молочного шоколаду",
     "unit": "",
     "category": "Кондитерські вироби",
@@ -15750,17 +15783,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/65277/catalog_list_65277.png",
     "url": "https://www.atbmarket.com/product/cukerki-t-prestiz-sufle-zi-smakom-brauni-tiramisu-cizkejku"
-  },
-  {
-    "name": "Цукерки Лукас О'damer вагові",
-    "unit": "за кг",
-    "category": "Кондитерські вироби",
-    "price": 284.85,
-    "old_price": 344.99,
-    "discount_percent": 17,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/25361/catalog_list_25361.jpg",
-    "url": "https://www.atbmarket.com/product/cukerki-lukas-odamer-vagovi"
   },
   {
     "name": "Цукерки жувальні 47 г Холз зі смаком кавуна",
@@ -16113,6 +16135,17 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/118269/catalog_list_118269.jpg",
     "url": "https://www.atbmarket.com/product/vafli-415g-nestle-kit-kat-u-molocnomu-sokoladi"
+  },
+  {
+    "name": "Торт 115г Вацак Медовик  к/уп",
+    "unit": "",
+    "category": "Кондитерські вироби",
+    "price": 57.9,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/115069/catalog_list_115069.jpeg",
+    "url": "https://www.atbmarket.com/product/tort-115g-vacak-medovik-kup"
   },
   {
     "name": "Батончик 39 г Roshen Double Peanuts молочний шоколад з арахісом м/уп",
@@ -16520,6 +16553,17 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/54445/catalog_list_54445.jpg",
     "url": "https://www.atbmarket.com/product/sokolad-90-g-lacmi-molocnij-z-nacinkou-zi-smakom-polunicnoi-panakoti-mup"
+  },
+  {
+    "name": "Торт 420г Вацак Наполеон п/уп",
+    "unit": "",
+    "category": "Кондитерські вироби",
+    "price": 165.3,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/54063/catalog_list_54063.jpg",
+    "url": "https://www.atbmarket.com/product/tort-420g-vacak-napoleon-pup"
   },
   {
     "name": "Шоколад 100 г Lacmi молочний з молочною начинкою, карамеллю та печивом з какао",
@@ -17215,6 +17259,17 @@
     "url": "https://www.atbmarket.com/product/tort-1-kg-vacak-velvet-cornosmorodinovij-pup"
   },
   {
+    "name": "Торт 0,5 кг Вацак Джаз п/уп",
+    "unit": "",
+    "category": "Кондитерські вироби",
+    "price": 239.6,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/116477/catalog_list_116477.jpg",
+    "url": "https://www.atbmarket.com/product/tort-05-kg-vacak-dzaz-pup"
+  },
+  {
     "name": "Шоколад 90 г Millennium FruitsNuts мол. з арахісом, мигдалем, родзинками та злакомиви пласт. м/уп",
     "unit": "",
     "category": "Кондитерські вироби",
@@ -17889,7 +17944,7 @@
     "name": "Шоколад 90 г Milka молочний з кремовою та полуничною начинкою",
     "unit": "",
     "category": "Кондитерські вироби",
-    "price": 95.7,
+    "price": 89.9,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": false,
@@ -18106,17 +18161,6 @@
     "url": "https://www.atbmarket.com/product/batoncik-40-g-proteline-proteinovij-glazurovanij-zi-smakom-kokosusokoladu-mup"
   },
   {
-    "name": "Десерт 100г Розумний Вибір чорний",
-    "unit": "",
-    "category": "Кондитерські вироби",
-    "price": 30.9,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/79803/catalog_list_79803.jpg",
-    "url": "https://www.atbmarket.com/product/desert-100g-rozumnij-vibir-cornij"
-  },
-  {
     "name": "Десерт 100г Розумний Вибір молочний з арахісом",
     "unit": "",
     "category": "Кондитерські вироби",
@@ -18291,17 +18335,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/69473/catalog_list_69473.png",
     "url": "https://www.atbmarket.com/product/praniki-300-g-svoa-linia-zaporizki-mup"
-  },
-  {
-    "name": "Печиво 400 г Biscotti Маргаритка здобне з маком к/уп",
-    "unit": "",
-    "category": "Кондитерські вироби",
-    "price": 124.8,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/69147/catalog_list_69147.jpg",
-    "url": "https://www.atbmarket.com/product/pecivo-400-g-biscotti-margaritka-zdobne-z-makom-kup"
   },
   {
     "name": "Жувальні цукерки 45 г Chupa Chups Chew зі смаком полуниці м/уп",
@@ -18522,6 +18555,17 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/55443/catalog_list_55443.jpg",
     "url": "https://www.atbmarket.com/product/cukerka-40-g-eatme-kuraga-ananas"
+  },
+  {
+    "name": "Торт 450 г TARTA Прaзький з вишнею бiсквiтний к/уп",
+    "unit": "",
+    "category": "Кондитерські вироби",
+    "price": 321.5,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/55215/catalog_list_55215.png",
+    "url": "https://www.atbmarket.com/product/tort-450-g-tarta-prazkij-z-visneu-biskvitnij-porcijnij-kup"
   },
   {
     "name": "Тoрт 450 г TARTA Прaзький бісквітний к/уп",
@@ -19019,6 +19063,17 @@
     "url": "https://www.atbmarket.com/product/cukerki-286-g-lubimov-prestige-asorti"
   },
   {
+    "name": "Шоколад 100 г Millennium білий миндаль та кокос",
+    "unit": "",
+    "category": "Кондитерські вироби",
+    "price": 95.6,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/21241/catalog_list_21241.jpg",
+    "url": "https://www.atbmarket.com/product/sokolad-100-g-millennium-bilij-mindal-ta-kokos"
+  },
+  {
     "name": "Шоколад 90г Milka молочний з арахісом, шматочками хрумкої карамелі, рисовими кульками",
     "unit": "",
     "category": "Кондитерські вироби",
@@ -19437,6 +19492,17 @@
     "url": "https://www.atbmarket.com/product/cukerki-rosen-bim-bom"
   },
   {
+    "name": "Цукерки Жако Пташине молоко",
+    "unit": "за кг",
+    "category": "Кондитерські вироби",
+    "price": 291.49,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/791/catalog_list_791.jpg",
+    "url": "https://www.atbmarket.com/product/cukerki-zako-ptasine-moloko"
+  },
+  {
     "name": "Шоколад 100г Milka молочний з кремовою начинкою та шматочками печива Орео",
     "unit": "",
     "category": "Кондитерські вироби",
@@ -19473,7 +19539,7 @@
     "name": "Шоколад 90г Мilka молочний з альпійським молоком",
     "unit": "",
     "category": "Кондитерські вироби",
-    "price": 95.4,
+    "price": 89.9,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": false,
@@ -19503,6 +19569,17 @@
     "url": "https://www.atbmarket.com/product/vafli-34-g-rosen-roshetto-peanut-glazurovani-sokoladnou-glazuru-mup"
   },
   {
+    "name": "Вафля 26 г Nestle Nesquik DUO в молочному шоколаді",
+    "unit": "",
+    "category": "Кондитерські вироби",
+    "price": 10.2,
+    "old_price": 14.9,
+    "discount_percent": 32,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/117963/catalog_list_117963.jpg",
+    "url": "https://www.atbmarket.com/product/vafla-26-g-nestle-nesquik-duo-v-molocnomu-sokoladi"
+  },
+  {
     "name": "Цукeрки 80 г Своя лінія Cool Worms желейні м/уп Туреччина",
     "unit": "",
     "category": "Кондитерські вироби",
@@ -19525,6 +19602,17 @@
     "url": "https://www.atbmarket.com/product/cukerki-80-g-svoa-linia-sparkly-worms-zelejni-mup-tureccina"
   },
   {
+    "name": "Печиво 300г Розумний вибір Чик-Чик здобне",
+    "unit": "",
+    "category": "Кондитерські вироби",
+    "price": 62.9,
+    "old_price": 84.4,
+    "discount_percent": 25,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/94085/catalog_list_94085.jpg",
+    "url": "https://www.atbmarket.com/product/pecivo-300g-rozumnij-vibir-cik-cik-zdobne"
+  },
+  {
     "name": "Пряники 300 г Своя Лінія зі смаком вишні м/уп",
     "unit": "",
     "category": "Кондитерські вироби",
@@ -19534,6 +19622,17 @@
     "out_of_stock": true,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/68811/catalog_list_68811.jpg",
     "url": "https://www.atbmarket.com/product/praniki-300-g-svoa-linia-zi-smakom-visni-mup"
+  },
+  {
+    "name": "Пряники 300 г Своя Лінія зі смаком абрикосу м/уп",
+    "unit": "",
+    "category": "Кондитерські вироби",
+    "price": 36.5,
+    "old_price": 48.9,
+    "discount_percent": 25,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/68809/catalog_list_68809.jpg",
+    "url": "https://www.atbmarket.com/product/praniki-300-g-svoa-linia-zi-smakom-abrikosu-mup"
   },
   {
     "name": "Кекс 40 г Papita з кремом з додаванням шоколаду та кольоровим драже м/уп Туреччина",
@@ -19569,15 +19668,15 @@
     "url": "https://www.atbmarket.com/product/tistecko-biskvitne-35-g-milka-z-sokoladnou-nacinkou-i-smatockami-molocnogo-sokoladu"
   },
   {
-    "name": "Тістечко 210 г Вацак заварні Профітролі з масляним кремом  п/уп",
-    "unit": "",
+    "name": "Цукерки Лукас О'damer вагові",
+    "unit": "за кг",
     "category": "Кондитерські вироби",
-    "price": 77.4,
-    "old_price": 93.8,
+    "price": 284.85,
+    "old_price": 344.99,
     "discount_percent": 17,
     "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/36111/catalog_list_36111.jpg",
-    "url": "https://www.atbmarket.com/product/tistecko-210-g-vacak-zavarni-profitroli-z-maslanim-kremom-pup"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/25361/catalog_list_25361.jpg",
+    "url": "https://www.atbmarket.com/product/cukerki-lukas-odamer-vagovi"
   },
   {
     "name": "Цукерки Своя Лінія Чорнослив з волоським горіхом",
@@ -19589,17 +19688,6 @@
     "out_of_stock": true,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/4602/catalog_list_4602.png",
     "url": "https://www.atbmarket.com/product/cukerki-svoa-linia-cornosliv-z-voloskim-gorihom"
-  },
-  {
-    "name": "Торт 115г Вацак Медовик  к/уп",
-    "unit": "",
-    "category": "Кондитерські вироби",
-    "price": 57.9,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/115069/catalog_list_115069.jpeg",
-    "url": "https://www.atbmarket.com/product/tort-115g-vacak-medovik-kup"
   },
   {
     "name": "Крeкeр 190 г Roshen 2 CRACK з шoкoладнoю начинкoю м/уп",
@@ -19635,17 +19723,6 @@
     "url": "https://www.atbmarket.com/product/cukerki-80-g-elvan-zelejni-dzelli-fanni-tis-mup-tureccina"
   },
   {
-    "name": "Торт 420г Вацак Наполеон п/уп",
-    "unit": "",
-    "category": "Кондитерські вироби",
-    "price": 165.3,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/54063/catalog_list_54063.jpg",
-    "url": "https://www.atbmarket.com/product/tort-420g-vacak-napoleon-pup"
-  },
-  {
     "name": "Вафельні трубочки 140г Рошен Konafetto milk",
     "unit": "",
     "category": "Кондитерські вироби",
@@ -19668,17 +19745,6 @@
     "url": "https://www.atbmarket.com/product/tort-430-g-tarta-povitrano-gorihovij-esterhazi-z-migdalem-kup"
   },
   {
-    "name": "Торт 0,5 кг Вацак Джаз п/уп",
-    "unit": "",
-    "category": "Кондитерські вироби",
-    "price": 239.6,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/116477/catalog_list_116477.jpg",
-    "url": "https://www.atbmarket.com/product/tort-05-kg-vacak-dzaz-pup"
-  },
-  {
     "name": "Торт 400г TARTA Йогуртовий Вишневий к/уп",
     "unit": "",
     "category": "Кондитерські вироби",
@@ -19688,61 +19754,6 @@
     "out_of_stock": true,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/115491/catalog_list_115491.jpg",
     "url": "https://www.atbmarket.com/product/tort-400g-tarta-jogurtovij-visnevij-kup"
-  },
-  {
-    "name": "Цукерки Millennium Very Peri з начинкою та печивом вагові",
-    "unit": "за кг",
-    "category": "Кондитерські вироби",
-    "price": 482.49,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/111783/catalog_list_111783.jpg",
-    "url": "https://www.atbmarket.com/product/cukerki-millennium-very-peri-z-nacinkou-ta-pecivom-vagovi"
-  },
-  {
-    "name": "Цукерки Конті Frulatto зі смаком смородини та м'яти вагові",
-    "unit": "за кг",
-    "category": "Кондитерські вироби",
-    "price": 316.39,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/111771/catalog_list_111771.jpg",
-    "url": "https://www.atbmarket.com/product/cukerki-konti-frulatto-zi-smakom-smorodini-ta-mati-vagovi"
-  },
-  {
-    "name": "Яйце 20 г Kinder Joy",
-    "unit": "",
-    "category": "Кондитерські вироби",
-    "price": 83.9,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/93901/catalog_list_93901.jpg",
-    "url": "https://www.atbmarket.com/product/ajco-20g-kinder-joy-v-assortimenti"
-  },
-  {
-    "name": "Торт 450 г TARTA Прaзький з вишнею бiсквiтний к/уп",
-    "unit": "",
-    "category": "Кондитерські вироби",
-    "price": 321.5,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/55215/catalog_list_55215.png",
-    "url": "https://www.atbmarket.com/product/tort-450-g-tarta-prazkij-z-visneu-biskvitnij-porcijnij-kup"
-  },
-  {
-    "name": "Цукерки Своя Лінія Waffle candy вафельні зі смаком шоколаду вагові",
-    "unit": "за кг",
-    "category": "Кондитерські вироби",
-    "price": 208.99,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/51233/catalog_list_51233.jpg",
-    "url": "https://www.atbmarket.com/product/cukerki-svoa-linia-waffle-candy-vafelni-zi-smakom-sokoladu-vagovi"
   },
   {
     "name": "Батончик 43г Kinder Bueno",
@@ -19778,28 +19789,6 @@
     "url": "https://www.atbmarket.com/product/cukerki-konti-dzek"
   },
   {
-    "name": "Шоколад 100 г Millennium чорний миндаль та журавлина",
-    "unit": "",
-    "category": "Кондитерські вироби",
-    "price": 95.6,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/21245/catalog_list_21245.jpg",
-    "url": "https://www.atbmarket.com/product/sokolad-100-g-millennium-cornij-mindal-ta-zuravlina"
-  },
-  {
-    "name": "Шоколад 100 г Millennium білий миндаль та кокос",
-    "unit": "",
-    "category": "Кондитерські вироби",
-    "price": 95.6,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/21241/catalog_list_21241.jpg",
-    "url": "https://www.atbmarket.com/product/sokolad-100-g-millennium-bilij-mindal-ta-kokos"
-  },
-  {
     "name": "Цукерки Золотий Запас Білочка вагові",
     "unit": "за кг",
     "category": "Кондитерські вироби",
@@ -19822,15 +19811,15 @@
     "url": "https://www.atbmarket.com/product/vafla-31g-milka-vaffelini-cokomaks-z-nacinkou-z-kakao-pokrita-molocnim-sokoladom"
   },
   {
-    "name": "Цукерки 285г Millennium Elegance Асорті молочний шоколад",
+    "name": "Ікра 250г Vomond імітована зі смаком Лосося, дой пак",
     "unit": "",
-    "category": "Кондитерські вироби",
-    "price": 307.8,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/3333/catalog_list_3333.jpg",
-    "url": "https://www.atbmarket.com/product/cukerki-285g-millennium-elegance-asorti-molocnij-sokolad"
+    "category": "Риба і морепродукти",
+    "price": 44.9,
+    "old_price": 89.9,
+    "discount_percent": 50,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/104763/catalog_list_104763.png",
+    "url": "https://www.atbmarket.com/product/ikra-250g-vomond-imitovana-zi-smakom-lososa-doj-pak"
   },
   {
     "name": "Крабові палички 250 г Водний світ заморожені",
@@ -19930,17 +19919,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/115479/catalog_list_115479.jpg",
     "url": "https://www.atbmarket.com/product/preservi-180-g-svoa-linia-oseledec-file-smatocki-v-olii-pbanka-kramar"
-  },
-  {
-    "name": "Морський коктейль 400 г Своя Лінія глазурований с/м вак/упак",
-    "unit": "",
-    "category": "Риба і морепродукти",
-    "price": 144.9,
-    "old_price": 193.9,
-    "discount_percent": 25,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/57337/catalog_list_57337.png",
-    "url": "https://www.atbmarket.com/product/morskij-koktejl-400-g-svoa-linia-glazurovanij-sm-vakupak"
   },
   {
     "name": "Креветка 330 г Norven ціла охолоджена варена (20-40) п/конт",
@@ -20062,17 +20040,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/66317/catalog_list_66317.jpg",
     "url": "https://www.atbmarket.com/product/skumbria-300-500-ribnica-bg-hk-vakupak"
-  },
-  {
-    "name": "Скумбрія Norven з/г х/к пл/упак",
-    "unit": "за кг",
-    "category": "Риба і морепродукти",
-    "price": 736.49,
-    "old_price": 779.99,
-    "discount_percent": 6,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/112251/catalog_list_112251.jpg",
-    "url": "https://www.atbmarket.com/product/skumbria-norven-zg-hk-plupak"
   },
   {
     "name": "Минтай День у День філе с/м н/ш п/ет",
@@ -20218,6 +20185,17 @@
     "url": "https://www.atbmarket.com/product/ikra-100g-veladis-pate-triski"
   },
   {
+    "name": "Хек День у День філе с/м н/ш п/ет",
+    "unit": "за кг",
+    "category": "Риба і морепродукти",
+    "price": 366.65,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/103259/catalog_list_103259.jpg",
+    "url": "https://www.atbmarket.com/product/hek-den-u-den-file-sm-ns-pet"
+  },
+  {
     "name": "Пресерви 250г Norven Оселедець філе в олії",
     "unit": "",
     "category": "Риба і морепродукти",
@@ -20317,6 +20295,17 @@
     "url": "https://www.atbmarket.com/product/asorti-z-moreproduktiv-300-g-norven-oholodzene-varene-pkont"
   },
   {
+    "name": "Минтай 400г Norven охолоджений філе б/ш п/конт",
+    "unit": "",
+    "category": "Риба і морепродукти",
+    "price": 279.3,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/117803/catalog_list_117803.jpg",
+    "url": "https://www.atbmarket.com/product/mintaj-400g-norven-oholodzenij-file-bs-pkont"
+  },
+  {
     "name": "Форель 210 г Norven філе-кусок на шкірі cл/c вак/упак",
     "unit": "",
     "category": "Риба і морепродукти",
@@ -20392,17 +20381,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/115475/catalog_list_115475.jpg",
     "url": "https://www.atbmarket.com/product/preservi-180-g-svoa-linia-oseledec-pranogo-posolu-file-smatocki-v-olii-pbanka-kramar"
-  },
-  {
-    "name": "Пресерви 500г Своя лінія Оселедець філе-шматочки в олії п/банка ( Крамар)",
-    "unit": "",
-    "category": "Риба і морепродукти",
-    "price": 188.7,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/115471/catalog_list_115471.jpg",
-    "url": "https://www.atbmarket.com/product/preservi-500g-svoa-linia-oseledec-file-smatocki-v-olii-pbanka-kramar"
   },
   {
     "name": "Ікра 100г Своя Лінія тріски пробійна слабосолена з/б",
@@ -20482,6 +20460,17 @@
     "url": "https://www.atbmarket.com/product/krabovi-palicki-zamorozeni-250-g-den-u-den-35-petilen-litva"
   },
   {
+    "name": "Крабові палички 500 г Своя лінія 40% заморожені п/eтилeн Литва",
+    "unit": "",
+    "category": "Риба і морепродукти",
+    "price": 154.4,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/111467/catalog_list_111467.jpg",
+    "url": "https://www.atbmarket.com/product/krabovi-palicki-zamorozeni-500-g-svoa-linia-40-petilen-litva"
+  },
+  {
     "name": "Крабові палички 250 г Своя лінія 40% заморожені п/eтилeн Литва",
     "unit": "",
     "category": "Риба і морепродукти",
@@ -20548,6 +20537,17 @@
     "url": "https://www.atbmarket.com/product/krabovi-palicki-05-kg-svoa-linia-oholodzeni-petilen-akvafrost"
   },
   {
+    "name": "Ікра 90 г Norven лососева зерниста (форелі) охолоджена пл/стакан",
+    "unit": "",
+    "category": "Риба і морепродукти",
+    "price": 643.0,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/106869/catalog_list_106869.jpg",
+    "url": "https://www.atbmarket.com/product/ikra-90-g-norven-lososeva-zernista-foreli-oholodzena-plstakan"
+  },
+  {
     "name": "Хек тушка напівпатраний День у День с/м б/г п/ет( Айсберг)",
     "unit": "за кг",
     "category": "Риба і морепродукти",
@@ -20559,15 +20559,26 @@
     "url": "https://www.atbmarket.com/product/hek-tuska-napivpatranij-den-u-den-sm-bg-pet-ajsberg"
   },
   {
-    "name": "Ікра 250г Vomond імітована зі смаком Лосося, дой пак",
-    "unit": "",
+    "name": "Скумбрія День у День атлантична с/м з/г п/ет (Айсберг)",
+    "unit": "за кг",
     "category": "Риба і морепродукти",
-    "price": 89.9,
+    "price": 485.29,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/104763/catalog_list_104763.png",
-    "url": "https://www.atbmarket.com/product/ikra-250g-vomond-imitovana-zi-smakom-lososa-doj-pak"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/105459/catalog_list_105459.jpg",
+    "url": "https://www.atbmarket.com/product/skumbria-den-u-den-atlanticna-sm-zg-pet-ajsberg"
+  },
+  {
+    "name": "Теляпія Veladis філе б/ш с/м п/ет",
+    "unit": "за кг",
+    "category": "Риба і морепродукти",
+    "price": 329.39,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/104851/catalog_list_104851.jpg",
+    "url": "https://www.atbmarket.com/product/telapia-veladis-file-bs-sm-pet"
   },
   {
     "name": "Креветка 230 г Norven ціла охолоджена варена п/конт",
@@ -20603,17 +20614,6 @@
     "url": "https://www.atbmarket.com/product/pasta-160g-veladis-ikorna-zi-smatockami-kopcenoi-foreli"
   },
   {
-    "name": "Оселедець Рибниця сл/сол 300+ вак/упак",
-    "unit": "за кг",
-    "category": "Риба і морепродукти",
-    "price": 299.45,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/90377/catalog_list_90377.jpg",
-    "url": "https://www.atbmarket.com/product/oseledec-ribnica-slsol-300-vakupak"
-  },
-  {
     "name": "Густера Aris в'ялена",
     "unit": "за кг",
     "category": "Риба і морепродукти",
@@ -20623,6 +20623,17 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/90189/catalog_list_90189.jpg",
     "url": "https://www.atbmarket.com/product/gustera-aris-valena"
+  },
+  {
+    "name": "Дорада Norven охолоджена патрана",
+    "unit": "за кг",
+    "category": "Риба і морепродукти",
+    "price": 799.99,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/90185/catalog_list_90185.jpg",
+    "url": "https://www.atbmarket.com/product/dorada-norven-oholodzena-patrana"
   },
   {
     "name": "Окунь Norven філе с/м п/ет",
@@ -20711,6 +20722,17 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/60689/catalog_list_60689.png",
     "url": "https://www.atbmarket.com/product/krevetki-09-kg-rozumnij-vibir-7090-vareno-morozeni-glazurovani-pet"
+  },
+  {
+    "name": "Морський коктейль 400 г Своя Лінія глазурований с/м вак/упак",
+    "unit": "",
+    "category": "Риба і морепродукти",
+    "price": 207.9,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/57337/catalog_list_57337.png",
+    "url": "https://www.atbmarket.com/product/morskij-koktejl-400-g-svoa-linia-glazurovanij-sm-vakupak"
   },
   {
     "name": "Лосось 340г Norven порції б/ш с/м п/ет",
@@ -20834,59 +20856,37 @@
     "url": "https://www.atbmarket.com/product/salaka-120g-aris-valena"
   },
   {
-    "name": "Хек День у День філе с/м н/ш п/ет",
+    "name": "Скумбрія Norven з/г х/к пл/упак",
     "unit": "за кг",
     "category": "Риба і морепродукти",
-    "price": 366.65,
-    "old_price": null,
-    "discount_percent": null,
+    "price": 736.49,
+    "old_price": 779.99,
+    "discount_percent": 6,
     "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/103259/catalog_list_103259.jpg",
-    "url": "https://www.atbmarket.com/product/hek-den-u-den-file-sm-ns-pet"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/112251/catalog_list_112251.jpg",
+    "url": "https://www.atbmarket.com/product/skumbria-norven-zg-hk-plupak"
   },
   {
-    "name": "Минтай 400г Norven охолоджений філе б/ш п/конт",
+    "name": "Пресерви 500г Своя лінія Оселедець філе-шматочки в олії п/банка ( Крамар)",
     "unit": "",
     "category": "Риба і морепродукти",
-    "price": 279.3,
+    "price": 188.7,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/117803/catalog_list_117803.jpg",
-    "url": "https://www.atbmarket.com/product/mintaj-400g-norven-oholodzenij-file-bs-pkont"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/115471/catalog_list_115471.jpg",
+    "url": "https://www.atbmarket.com/product/preservi-500g-svoa-linia-oseledec-file-smatocki-v-olii-pbanka-kramar"
   },
   {
-    "name": "Скумбрія День у День атлантична с/м з/г п/ет (Айсберг)",
+    "name": "Оселедець Рибниця сл/сол 300+ вак/упак",
     "unit": "за кг",
     "category": "Риба і морепродукти",
-    "price": 485.29,
+    "price": 299.45,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/105459/catalog_list_105459.jpg",
-    "url": "https://www.atbmarket.com/product/skumbria-den-u-den-atlanticna-sm-zg-pet-ajsberg"
-  },
-  {
-    "name": "Теляпія Veladis філе б/ш с/м п/ет",
-    "unit": "за кг",
-    "category": "Риба і морепродукти",
-    "price": 329.39,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/104851/catalog_list_104851.jpg",
-    "url": "https://www.atbmarket.com/product/telapia-veladis-file-bs-sm-pet"
-  },
-  {
-    "name": "Дорада Norven охолоджена патрана",
-    "unit": "за кг",
-    "category": "Риба і морепродукти",
-    "price": 799.99,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/90185/catalog_list_90185.jpg",
-    "url": "https://www.atbmarket.com/product/dorada-norven-oholodzena-patrana"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/90377/catalog_list_90377.jpg",
+    "url": "https://www.atbmarket.com/product/oseledec-ribnica-slsol-300-vakupak"
   },
   {
     "name": "Вомер Рибниця",
@@ -21934,17 +21934,6 @@
     "url": "https://www.atbmarket.com/product/kruasan-mini-180-g-agrobiznes-z-nacinkou-sokolad-apelsin-pet"
   },
   {
-    "name": "Хліб 0,5 кг Агробізнес Цільнозерновий на черені нарізаний пш п/ет",
-    "unit": "",
-    "category": "Хлібобулочні вироби",
-    "price": 32.8,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/89633/catalog_list_89633.jpg",
-    "url": "https://www.atbmarket.com/product/hlib-05-kg-agrobiznes-cilnozernovij-na-cereni-narizanij-ps-pet"
-  },
-  {
     "name": "Хлібці 100 г Livity цільнозернові з коричневого рису з морскою сіллю / 12 супернасінин м/уп Болгарія",
     "unit": "",
     "category": "Хлібобулочні вироби",
@@ -22119,17 +22108,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/60495/catalog_list_60495.png",
     "url": "https://www.atbmarket.com/product/hlib-425g-lvivskij-zavapnij-klasicnij"
-  },
-  {
-    "name": "Хліб 300 г Agrola Український пшенично-житній бездріжджовий п/ет",
-    "unit": "",
-    "category": "Хлібобулочні вироби",
-    "price": 32.5,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/59443/catalog_list_59443.jpg",
-    "url": "https://www.atbmarket.com/product/hlib-300-g-agrola-ukrainskij-psenicno-zitnij-bezdrizdzovij-pet"
   },
   {
     "name": "Хліб 300 г Agrola Український пшеничний бездріжджовий п/ет",
@@ -22440,6 +22418,17 @@
     "url": "https://www.atbmarket.com/product/hlibci-risovi-65-g-sonko-glazurovani-molocnim-sokoladom-mup"
   },
   {
+    "name": "Хліб 0,5 кг Агробізнес Цільнозерновий на черені нарізаний пш п/ет",
+    "unit": "",
+    "category": "Хлібобулочні вироби",
+    "price": 32.8,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/89633/catalog_list_89633.jpg",
+    "url": "https://www.atbmarket.com/product/hlib-05-kg-agrobiznes-cilnozernovij-na-cereni-narizanij-ps-pet"
+  },
+  {
     "name": "Морозиво 80 г Київський пломбір ваф.стак. п/ет",
     "unit": "",
     "category": "Заморожені продукти",
@@ -22449,17 +22438,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/89729/catalog_list_89729.jpg",
     "url": "https://www.atbmarket.com/product/morozivo-80-g-kiivskij-plombir-vafstak-pet"
-  },
-  {
-    "name": "Морозиво 110 г Київський пломбір з фісташкою ваф.ріжок карт/уп",
-    "unit": "",
-    "category": "Заморожені продукти",
-    "price": 43.9,
-    "old_price": 80.5,
-    "discount_percent": 45,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/89727/catalog_list_89727.jpg",
-    "url": "https://www.atbmarket.com/product/morozivo-110-g-kiivskij-plombir-z-fistaskou-vafrizok-kartup"
   },
   {
     "name": "Морозиво 140г Київський пломбір з варенням із лохини карт/ст",
@@ -22594,6 +22572,17 @@
     "url": "https://www.atbmarket.com/product/pelmeni-08-kg-lasunka-z-alovicinou-ta-svininou-pet"
   },
   {
+    "name": "Суміш овочева 450г Iglotex «Крем-суп із жовтих овочів з гарбузовим насінням» швидкозаморожена п/ет",
+    "unit": "",
+    "category": "Заморожені продукти",
+    "price": 82.4,
+    "old_price": 128.5,
+    "discount_percent": 36,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/104801/catalog_list_104801.jpg",
+    "url": "https://www.atbmarket.com/product/sumis-ovoceva-450g-iglotex-krem-sup-iz-zovtih-ovociv-z-garbuzovim-nasinnam-svidkozamorozena-pet"
+  },
+  {
     "name": "Пельмені 0,6 кг Ласунка \"Масляні\" яловичі п/ет",
     "unit": "",
     "category": "Заморожені продукти",
@@ -22614,17 +22603,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/7259/catalog_list_7259.jpg",
     "url": "https://www.atbmarket.com/product/pelmeni-08-kg-levada-firmovi-z-alovicinou"
-  },
-  {
-    "name": "Пельмені 0,9 кг Левада З яловичиною та свининою",
-    "unit": "",
-    "category": "Заморожені продукти",
-    "price": 159.5,
-    "old_price": 245.5,
-    "discount_percent": 35,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/55883/catalog_list_55883.jpg",
-    "url": "https://www.atbmarket.com/product/pelmeni-09-kg-levada-z-alovicinou-ta-svininou"
   },
   {
     "name": "Морозиво 70 г Своя лінія Золотий Каштан пломбір  шоколадний  у вершковій глазурі",
@@ -22715,17 +22693,6 @@
     "url": "https://www.atbmarket.com/product/morozivo-75-g-limo-plombir-1965-vafstak-pet"
   },
   {
-    "name": "Морозиво 70 г Лімо \"КАШТАН ЗІ ЛЬВОВА\" ескімо з шоколадним смаком в конд. глазурі п/ет",
-    "unit": "",
-    "category": "Заморожені продукти",
-    "price": 28.3,
-    "old_price": 38.9,
-    "discount_percent": 27,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/64131/catalog_list_64131.jpg",
-    "url": "https://www.atbmarket.com/product/morozivo-70g-limo-kastan-zi-lvov-eskimo-z-soksmakom-v-kond-glaz-pet"
-  },
-  {
     "name": "Морозиво 1 кг Розумний вибір з наповнювачем Вишневий (Львівський)",
     "unit": "",
     "category": "Заморожені продукти",
@@ -22737,17 +22704,6 @@
     "url": "https://www.atbmarket.com/product/morozivo-1-kg-rozumnij-vibir-z-napovnuvacem-visnevij-lvivskij"
   },
   {
-    "name": "Чебуреки 0,5 кг Левада п/ет",
-    "unit": "",
-    "category": "Заморожені продукти",
-    "price": 82.9,
-    "old_price": 107.4,
-    "discount_percent": 23,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/75987/catalog_list_75987.jpg",
-    "url": "https://www.atbmarket.com/product/cebureki-05-kg-levada-pet"
-  },
-  {
     "name": "Міні листкові булочки Легко! з куркою та грибами заморожені 600 г",
     "unit": "",
     "category": "Заморожені продукти",
@@ -22757,28 +22713,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/79695/catalog_list_79695.jpg",
     "url": "https://www.atbmarket.com/product/mini-06-kg-legko-z-kurkou-ta-gribami-zamorozeni-pet"
-  },
-  {
-    "name": "Морозиво 100 г Ласунка \"Стакан Великан\" з вареним згущ. молоком ваф. стак. п/ет",
-    "unit": "",
-    "category": "Заморожені продукти",
-    "price": 35.2,
-    "old_price": 45.4,
-    "discount_percent": 22,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/112955/catalog_list_112955.jpg",
-    "url": "https://www.atbmarket.com/product/morozivo-100-g-lasunka-stakan-velikan-z-varenim-zgus-molokom-vaf-stak-pet"
-  },
-  {
-    "name": "Морозиво 100г Ласунка Стакан Великан з какао та вареним згущеним молоком",
-    "unit": "",
-    "category": "Заморожені продукти",
-    "price": 39.8,
-    "old_price": 51.3,
-    "discount_percent": 22,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/91949/catalog_list_91949.jpg",
-    "url": "https://www.atbmarket.com/product/morozivo-100g-lasunka-stakan-velikan-z-kakao-ta-varenim-zgusenim-molokom"
   },
   {
     "name": "Полуниця 400 г Своя Лінія швидкозаморожена (O) п/ет",
@@ -22836,17 +22770,6 @@
     "url": "https://www.atbmarket.com/product/pelmeni-06-kg-svoa-linia-z-masom-indicki-pet"
   },
   {
-    "name": "Морозиво 100г Своя лінія Великий Стакан з підварками ківі та манго",
-    "unit": "",
-    "category": "Заморожені продукти",
-    "price": 28.9,
-    "old_price": 36.4,
-    "discount_percent": 21,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/40481/catalog_list_40481.jpg",
-    "url": "https://www.atbmarket.com/product/morozivo-100g-svoa-linia-velikij-stakan-z-pidvarkami-kivi-ta-mango"
-  },
-  {
     "name": "Морозиво 85г Своя лінія Пломбір Великий Стакан",
     "unit": "",
     "category": "Заморожені продукти",
@@ -22900,6 +22823,17 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/105475/catalog_list_105475.jpg",
     "url": "https://www.atbmarket.com/product/kartopla-dolkami-750g-svoa-linia-blansovana-smazena-svidkozamorozena-pet"
+  },
+  {
+    "name": "Піца Легко! Гавайська заморожена 400 г",
+    "unit": "",
+    "category": "Заморожені продукти",
+    "price": 137.3,
+    "old_price": 170.6,
+    "discount_percent": 20,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/120825/catalog_list_120825.jpg",
+    "url": "https://www.atbmarket.com/product/pica-400-g-legko-gavajska-pet"
   },
   {
     "name": "Морозиво 65 г Розумний вибір з наповнювачем Вишня 8%",
@@ -23111,6 +23045,17 @@
     "url": "https://www.atbmarket.com/product/morozivo-90g-rud-briket-100"
   },
   {
+    "name": "Морозиво 100г Ласунка Стакан Великан з какао та вареним згущеним молоком",
+    "unit": "",
+    "category": "Заморожені продукти",
+    "price": 52.3,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/91949/catalog_list_91949.jpg",
+    "url": "https://www.atbmarket.com/product/morozivo-100g-lasunka-stakan-velikan-z-kakao-ta-varenim-zgusenim-molokom"
+  },
+  {
     "name": "Сирники 280 г Valesto випечені заморожені пл/лоток",
     "unit": "",
     "category": "Заморожені продукти",
@@ -23276,6 +23221,17 @@
     "url": "https://www.atbmarket.com/product/morozivo-75-g-hresatik-na-pecivi-z-kakao-sendvic"
   },
   {
+    "name": "Морозиво 100г Своя лінія Великий Стакан з підварками ківі та манго",
+    "unit": "",
+    "category": "Заморожені продукти",
+    "price": 36.9,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/40481/catalog_list_40481.jpg",
+    "url": "https://www.atbmarket.com/product/morozivo-100g-svoa-linia-velikij-stakan-z-pidvarkami-kivi-ta-mango"
+  },
+  {
     "name": "Морозиво 65 г Розумний вибір з какао 8% ваф/стакан м/уп (Ласка)",
     "unit": "",
     "category": "Заморожені продукти",
@@ -23342,6 +23298,28 @@
     "url": "https://www.atbmarket.com/product/morozivo-70g-rud-100-morozivo"
   },
   {
+    "name": "Пельмени 0,6 кг Valesto з  курячим м'ясом п/ет",
+    "unit": "",
+    "category": "Заморожені продукти",
+    "price": 125.9,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/123089/catalog_list_123089.jpg",
+    "url": "https://www.atbmarket.com/product/pelmeni-06-kg-valesto-z-kuracim-masom-pet"
+  },
+  {
+    "name": "Пельмені 0,6 кг Valesto з яловичиною, курятиною та свининою п/ет",
+    "unit": "",
+    "category": "Заморожені продукти",
+    "price": 145.6,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/123087/catalog_list_123087.jpg",
+    "url": "https://www.atbmarket.com/product/pelmeni-06-kg-valesto-z-alovicinou-kuratinou-ta-svininou-pet"
+  },
+  {
     "name": "Млинці 300 г Valesto з полуницею пласт/упак",
     "unit": "",
     "category": "Заморожені продукти",
@@ -23364,17 +23342,6 @@
     "url": "https://www.atbmarket.com/product/slojka-360-g-loven-z-visnevou-nacinkou-60g6st-pet"
   },
   {
-    "name": "Зрази 360 г Valesto з грибами пласт/упак",
-    "unit": "",
-    "category": "Заморожені продукти",
-    "price": 158.9,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/123065/catalog_list_123065.jpg",
-    "url": "https://www.atbmarket.com/product/zrazi-360-g-valesto-z-gribami-plastupak"
-  },
-  {
     "name": "Котлети 450 г Пан Ситник курячі заморожені п/ет",
     "unit": "",
     "category": "Заморожені продукти",
@@ -23395,6 +23362,17 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/122169/catalog_list_122169.jpg",
     "url": "https://www.atbmarket.com/product/pelmeni-08-kg-den-u-den-z-kurkou-svininou-ta-alovicinou-pet"
+  },
+  {
+    "name": "Пельмені 0,8 кг День у День курячі п/ет",
+    "unit": "",
+    "category": "Заморожені продукти",
+    "price": 128.5,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/121879/catalog_list_121879.jpg",
+    "url": "https://www.atbmarket.com/product/pelmeni-08-kg-den-u-den-kuraci-pet"
   },
   {
     "name": "Піца 430 г Легко! \"М'ясна/Пепероні\" заморожена п/ет",
@@ -23560,17 +23538,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/114143/catalog_list_114143.jpg",
     "url": "https://www.atbmarket.com/product/morozivo-150-g-tri-vedmedi-loveberries-dvosarove-vaf-riz-pet"
-  },
-  {
-    "name": "Морозиво 0,5 кг Три Ведмеді Monaco Dessert Tiramisu",
-    "unit": "",
-    "category": "Заморожені продукти",
-    "price": 284.8,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/113937/catalog_list_113937.jpg",
-    "url": "https://www.atbmarket.com/product/morozivo-05-kg-tri-vedmedi-monaco-dessert-tiramisu"
   },
   {
     "name": "Морозиво 150 г Ласунка десерт зі смаком \"кокос-манго-чіа\" пл/стак",
@@ -23782,6 +23749,17 @@
     "url": "https://www.atbmarket.com/product/morozivo-05-kg-limo-limo-ice-cream-sokoladne-z-napovnuvacem-zgusene-moloko-pet"
   },
   {
+    "name": "Морозиво 110 г Київський пломбір з фісташкою ваф.ріжок карт/уп",
+    "unit": "",
+    "category": "Заморожені продукти",
+    "price": 90.2,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/89727/catalog_list_89727.jpg",
+    "url": "https://www.atbmarket.com/product/morozivo-110-g-kiivskij-plombir-z-fistaskou-vafrizok-kartup"
+  },
+  {
     "name": "Морозиво 110 г Київський пломбір ваф.ріжок карт/уп",
     "unit": "",
     "category": "Заморожені продукти",
@@ -23826,6 +23804,28 @@
     "url": "https://www.atbmarket.com/product/nagetsi-400-g-izi-v-panirovci-pet"
   },
   {
+    "name": "Чебуреки 0,5 кг Левада п/ет",
+    "unit": "",
+    "category": "Заморожені продукти",
+    "price": 109.5,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/75987/catalog_list_75987.jpg",
+    "url": "https://www.atbmarket.com/product/cebureki-05-kg-levada-pet"
+  },
+  {
+    "name": "Морозиво 0,5 кг Рудь 100% морозиво",
+    "unit": "",
+    "category": "Заморожені продукти",
+    "price": 156.4,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/70213/catalog_list_70213.png",
+    "url": "https://www.atbmarket.com/product/morozivo-05-kg-rud-100-morozivo"
+  },
+  {
     "name": "Морозиво 0,5 кг Три Ведмеді Фісташка",
     "unit": "",
     "category": "Заморожені продукти",
@@ -23846,6 +23846,28 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/65953/catalog_list_65953.jpg",
     "url": "https://www.atbmarket.com/product/morozivo-075-kg-hresatik-plombir-15-pet"
+  },
+  {
+    "name": "Морозиво 70 г Лімо \"КАШТАН ЗІ ЛЬВОВА\" ескімо з шоколадним смаком в конд. глазурі п/ет",
+    "unit": "",
+    "category": "Заморожені продукти",
+    "price": 39.9,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/64131/catalog_list_64131.jpg",
+    "url": "https://www.atbmarket.com/product/morozivo-70g-limo-kastan-zi-lvov-eskimo-z-soksmakom-v-kond-glaz-pet"
+  },
+  {
+    "name": "Пельмені 0,9 кг Левада З яловичиною та свининою",
+    "unit": "",
+    "category": "Заморожені продукти",
+    "price": 262.7,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/55883/catalog_list_55883.jpg",
+    "url": "https://www.atbmarket.com/product/pelmeni-09-kg-levada-z-alovicinou-ta-svininou"
   },
   {
     "name": "Пельмені 700 г Три Ведмеді з куркою п/ет",
@@ -23925,6 +23947,28 @@
     "url": "https://www.atbmarket.com/product/vareniki-08-kg-tri-vedmedi-z-kartopleu-ta-gribami-mup"
   },
   {
+    "name": "Піца 363г ALBERTO чотири сири",
+    "unit": "",
+    "category": "Заморожені продукти",
+    "price": 144.3,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/17339/catalog_list_17339.jpg",
+    "url": "https://www.atbmarket.com/product/pica-363g-alberto-cotiri-siri"
+  },
+  {
+    "name": "Піца 320г Passionata прошуто швидкозаморожена",
+    "unit": "",
+    "category": "Заморожені продукти",
+    "price": 144.3,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/14480/catalog_list_14480.jpg",
+    "url": "https://www.atbmarket.com/product/pica-325g-passionata-prosuto-svidkozamorozena-polsa"
+  },
+  {
     "name": "Морозиво 1 кг Розумний вибір з ароматом ванілі(Львівський)",
     "unit": "",
     "category": "Заморожені продукти",
@@ -23969,48 +24013,26 @@
     "url": "https://www.atbmarket.com/product/pelmeni-06-kg-tri-vedmedi-misutka-troe-porosat-pet"
   },
   {
-    "name": "Суміш овочева 450г Iglotex «Крем-суп із жовтих овочів з гарбузовим насінням» швидкозаморожена п/ет",
+    "name": "Морозиво 100 г Ласунка \"Стакан Великан\" з вареним згущ. молоком ваф. стак. п/ет",
     "unit": "",
     "category": "Заморожені продукти",
-    "price": 82.4,
-    "old_price": 128.5,
-    "discount_percent": 36,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/104801/catalog_list_104801.jpg",
-    "url": "https://www.atbmarket.com/product/sumis-ovoceva-450g-iglotex-krem-sup-iz-zovtih-ovociv-z-garbuzovim-nasinnam-svidkozamorozena-pet"
-  },
-  {
-    "name": "Морозиво 70г Лімо ЛЬВІВСЬКЕ ескімо в конд. глаз. п/ет",
-    "unit": "",
-    "category": "Заморожені продукти",
-    "price": 28.5,
-    "old_price": 39.3,
-    "discount_percent": 27,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/26215/catalog_list_26215.jpg",
-    "url": "https://www.atbmarket.com/product/morozivo-70g-limo-lvivske-eskimo-v-kond-glaz-pet"
-  },
-  {
-    "name": "Морозиво 100г Ласунка Стакан Великан з підварками абрикосова та вишнева",
-    "unit": "",
-    "category": "Заморожені продукти",
-    "price": 39.8,
-    "old_price": 51.2,
+    "price": 35.2,
+    "old_price": 45.4,
     "discount_percent": 22,
     "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/91951/catalog_list_91951.jpg",
-    "url": "https://www.atbmarket.com/product/morozivo-100g-lasunka-stakan-velikan-z-pidvarkami-abrikosova-ta-visneva"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/112955/catalog_list_112955.jpg",
+    "url": "https://www.atbmarket.com/product/morozivo-100-g-lasunka-stakan-velikan-z-varenim-zgus-molokom-vaf-stak-pet"
   },
   {
-    "name": "Піца Легко! Гавайська заморожена 400 г",
+    "name": "Зрази 360 г Valesto з грибами пласт/упак",
     "unit": "",
     "category": "Заморожені продукти",
-    "price": 137.3,
-    "old_price": 170.6,
-    "discount_percent": 20,
+    "price": 158.9,
+    "old_price": null,
+    "discount_percent": null,
     "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/120825/catalog_list_120825.jpg",
-    "url": "https://www.atbmarket.com/product/pica-400-g-legko-gavajska-pet"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/123065/catalog_list_123065.jpg",
+    "url": "https://www.atbmarket.com/product/zrazi-360-g-valesto-z-gribami-plastupak"
   },
   {
     "name": "Зрази 360 г Valesto з куркою пласт/упак",
@@ -24024,26 +24046,26 @@
     "url": "https://www.atbmarket.com/product/zrazi-360-g-valesto-z-kurkou-plastupak"
   },
   {
-    "name": "Пельмені 0,8 кг День у День курячі п/ет",
+    "name": "Морозиво 0,5 кг Три Ведмеді Monaco Dessert Tiramisu",
     "unit": "",
     "category": "Заморожені продукти",
-    "price": 128.5,
+    "price": 284.8,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/121879/catalog_list_121879.jpg",
-    "url": "https://www.atbmarket.com/product/pelmeni-08-kg-den-u-den-kuraci-pet"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/113937/catalog_list_113937.jpg",
+    "url": "https://www.atbmarket.com/product/morozivo-05-kg-tri-vedmedi-monaco-dessert-tiramisu"
   },
   {
-    "name": "Морозиво 110 г Київський пломбір з печивом з какао ріжок карт/уп",
+    "name": "Морозиво 100г Ласунка Стакан Великан з підварками абрикосова та вишнева",
     "unit": "",
     "category": "Заморожені продукти",
-    "price": 87.7,
+    "price": 52.2,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/113279/catalog_list_113279.jpg",
-    "url": "https://www.atbmarket.com/product/morozivo-110-g-kiivskij-plombir-z-pecivom-z-kakao-rizok-kartup"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/91951/catalog_list_91951.jpg",
+    "url": "https://www.atbmarket.com/product/morozivo-100g-lasunka-stakan-velikan-z-pidvarkami-abrikosova-ta-visneva"
   },
   {
     "name": "Морозиво 550 г Ласунка \"Mix Deluxe\" Ананас-маракуйя-макаронси, пл/судок",
@@ -24057,26 +24079,26 @@
     "url": "https://www.atbmarket.com/product/morozivo-550-g-lasunka-mix-deluxe-zi-smakom-ananas-marakuja-makaronsi-plsudok"
   },
   {
-    "name": "Морозиво 0,5 кг Рудь 100% морозиво",
+    "name": "Морозиво 70г Лімо ЛЬВІВСЬКЕ ескімо в конд. глаз. п/ет",
     "unit": "",
     "category": "Заморожені продукти",
-    "price": 156.4,
+    "price": 39.9,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/70213/catalog_list_70213.png",
-    "url": "https://www.atbmarket.com/product/morozivo-05-kg-rud-100-morozivo"
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/26215/catalog_list_26215.jpg",
+    "url": "https://www.atbmarket.com/product/morozivo-70g-limo-lvivske-eskimo-v-kond-glaz-pet"
   },
   {
-    "name": "Піца 320г Passionata прошуто швидкозаморожена",
+    "name": "Чай 157,5г (6 видів*15 ф/п) LOVARE набір Fest Tea SET асорті в конвертах к/уп",
     "unit": "",
-    "category": "Заморожені продукти",
-    "price": 144.3,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": true,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/14480/catalog_list_14480.jpg",
-    "url": "https://www.atbmarket.com/product/pica-325g-passionata-prosuto-svidkozamorozena-polsa"
+    "category": "Кава, чай",
+    "price": 163.9,
+    "old_price": 329.9,
+    "discount_percent": 50,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/71993/catalog_list_71993.jpg",
+    "url": "https://www.atbmarket.com/product/caj-1575-g-6-vidiv-15-fp-lovare-nabir-winter-fest-tea-asorti-v-konvertah-kup"
   },
   {
     "name": "Чай (25 ф/п х 1,8г) SHERLOCK Sekrets Classic Bergamot чорний з ароматом бергамоту та лимону к/уп",
@@ -24176,17 +24198,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/91349/catalog_list_91349.jpg",
     "url": "https://www.atbmarket.com/product/napij-kavovij-05-kg-jacobs-cappuccino-choco-rozcinnij-z-kakao-mup"
-  },
-  {
-    "name": "Чай 80 г Lovare Champagne Splashes бленд чорного та зеленого з шматочками ягід та аром суниці к/уп",
-    "unit": "",
-    "category": "Кава, чай",
-    "price": 68.9,
-    "old_price": 115.6,
-    "discount_percent": 40,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/33565/catalog_list_33565.jpg",
-    "url": "https://www.atbmarket.com/product/caj-80-g-lovare-champagne-splashes-blend-cornogo-ta-zelenogo-z-smatockami-agid-ta-arom-sunici-kup"
   },
   {
     "name": "Чай (27 ф/п х 2 г) GRACE ЕрлГрей з ароматом бергамоту чорний з ярликом к/уп",
@@ -24462,17 +24473,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/37233/catalog_list_37233.jpg",
     "url": "https://www.atbmarket.com/product/napij-150g-gellwe-carspaw-patrol-svidkorozc-z-kakao-zbagacenij-vitaminami-ta-kalciem-polsa"
-  },
-  {
-    "name": "Чай (100 ф/п х 1,4 г) MINUTKA BLACK TEA чорний  Польша",
-    "unit": "",
-    "category": "Кава, чай",
-    "price": 60.9,
-    "old_price": 76.9,
-    "discount_percent": 21,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/62619/catalog_list_62619.jpg",
-    "url": "https://www.atbmarket.com/product/caj-100-fp-h-14-g-minutka-black-tea-cornij-polsa"
   },
   {
     "name": "Чай 100г Hyleys  Англійський зелений листовий",
@@ -24880,17 +24880,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/33545/catalog_list_33545.jpg",
     "url": "https://www.atbmarket.com/product/caj-24-fp-2-g-lovare-golden-ceylon-cornij-bajhovij-cejlonskij-dribnij-kup"
-  },
-  {
-    "name": "Чай (24 ф/п *2г) Lovare Champagne Splashes бленд чорного та зеленого з ягодами та аром. суниці к/уп",
-    "unit": "",
-    "category": "Кава, чай",
-    "price": 93.7,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/33533/catalog_list_33533.jpg",
-    "url": "https://www.atbmarket.com/product/caj-24-fp-2g-lovare-champagne-splashes-blend-cornogo-ta-zelenogo-z-agodami-ta-arom-sunici-kup"
   },
   {
     "name": "Чай 100г De Luxe Foods&Goods Selected чорний цейлонський середній лист з ароматом бергамоту",
@@ -25652,17 +25641,6 @@
     "url": "https://www.atbmarket.com/product/kava-230-g-jacobs-monarch-melena-mup"
   },
   {
-    "name": "Чай 157,5г (6 видів*15 ф/п) LOVARE набір Fest Tea SET асорті в конвертах к/уп",
-    "unit": "",
-    "category": "Кава, чай",
-    "price": 329.9,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/71993/catalog_list_71993.jpg",
-    "url": "https://www.atbmarket.com/product/caj-1575-g-6-vidiv-15-fp-lovare-nabir-winter-fest-tea-asorti-v-konvertah-kup"
-  },
-  {
     "name": "Чай (25 ф/п х 2 г) Lovare зелений асорті",
     "unit": "",
     "category": "Кава, чай",
@@ -25809,7 +25787,7 @@
     "name": "Чай (25 ф/п х 2г) Своя Лінія чорний байховий дрібний",
     "unit": "",
     "category": "Кава, чай",
-    "price": 41.7,
+    "price": 39.9,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": false,
@@ -25826,6 +25804,17 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/33805/catalog_list_33805.jpg",
     "url": "https://www.atbmarket.com/product/caj-25-fp-2-g-lovare-bergamot-assorted-kup"
+  },
+  {
+    "name": "Чай 80 г Lovare Champagne Splashes бленд чорного та зеленого з шматочками ягід та аром суниці к/уп",
+    "unit": "",
+    "category": "Кава, чай",
+    "price": 129.8,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/33565/catalog_list_33565.jpg",
+    "url": "https://www.atbmarket.com/product/caj-80-g-lovare-champagne-splashes-blend-cornogo-ta-zelenogo-z-smatockami-agid-ta-arom-sunici-kup"
   },
   {
     "name": "Чай (24 ф/п *1,5 г) Lovare Special green зелений байховий китайський дрібний  з ярликом к/уп",
@@ -25996,7 +25985,7 @@
     "name": "Чай (25 ф/п Х 2г) Своя Лінія чорний байховий цейлонський дрібний з ароматом бергамоту",
     "unit": "",
     "category": "Кава, чай",
-    "price": 41.7,
+    "price": 39.9,
     "old_price": null,
     "discount_percent": null,
     "out_of_stock": false,
@@ -26123,6 +26112,17 @@
     "out_of_stock": false,
     "image": "https://www.atbmarket.com/image/none.webp",
     "url": "https://www.atbmarket.com/product/caj-50-g-yogoda-oblipihovij-z-abrikosom-koncentpat-mup"
+  },
+  {
+    "name": "Чай (100 ф/п х 1,4 г) MINUTKA BLACK TEA чорний  Польша",
+    "unit": "",
+    "category": "Кава, чай",
+    "price": 60.9,
+    "old_price": 76.9,
+    "discount_percent": 21,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/62619/catalog_list_62619.jpg",
+    "url": "https://www.atbmarket.com/product/caj-100-fp-h-14-g-minutka-black-tea-cornij-polsa"
   },
   {
     "name": "Кава 225г Fort Intense Taste мелена",
@@ -27445,6 +27445,17 @@
     "url": "https://www.atbmarket.com/product/kovbasa-masna-lavkasvoa-linia-evrejska-sv"
   },
   {
+    "name": "Виріб фаршевий 420 г Ковбасний ряд/Розумний вибір Баварський н/к вак/упак",
+    "unit": "",
+    "category": "Ковбаса і м'ясні делікатеси",
+    "price": 88.5,
+    "old_price": 110.7,
+    "discount_percent": 20,
+    "out_of_stock": false,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/79871/catalog_list_79871.jpg",
+    "url": "https://www.atbmarket.com/product/virib-farsevij-420-g-kovbasnij-radrozumnij-vibir-bavarskij-nk-vakupak"
+  },
+  {
     "name": "Ковбаса 80 г М'ясна лавка/Своя лінія Золотиста нарізка с/в",
     "unit": "",
     "category": "Ковбаса і м'ясні делікатеси",
@@ -27619,17 +27630,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/408/catalog_list_408.jpg",
     "url": "https://www.atbmarket.com/product/kovbasa-80-g-dobrov-braunsvejgska-narizka-sk"
-  },
-  {
-    "name": "Ковбаса Добров Феліно с/в",
-    "unit": "за кг",
-    "category": "Ковбаса і м'ясні делікатеси",
-    "price": 748.49,
-    "old_price": 906.99,
-    "discount_percent": 17,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/4324/catalog_list_4324.jpg",
-    "url": "https://www.atbmarket.com/product/kovbasa-dobrov-felino-sv"
   },
   {
     "name": "Ковбаса Добров Брауншвейгська с/к",
@@ -28039,17 +28039,6 @@
     "url": "https://www.atbmarket.com/product/kovbasa-055-kg-masna-lavkasvoa-linia-molocna-dstu-var-vektor"
   },
   {
-    "name": "Виріб фаршевий 420 г Ковбасний ряд/Розумний вибір Баварський н/к вак/упак",
-    "unit": "",
-    "category": "Ковбаса і м'ясні делікатеси",
-    "price": 110.7,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/79871/catalog_list_79871.jpg",
-    "url": "https://www.atbmarket.com/product/virib-farsevij-420-g-kovbasnij-radrozumnij-vibir-bavarskij-nk-vakupak"
-  },
-  {
     "name": "Ковбaсa 80 г М'яснa лaвкa/Своя лінія Фірмова нapізкa с/к вaк/yпaк",
     "unit": "",
     "category": "Ковбаса і м'ясні делікатеси",
@@ -28314,17 +28303,6 @@
     "url": "https://www.atbmarket.com/product/kovbasa-275-g-globino-lubitelska-vs-narizka-vakupak"
   },
   {
-    "name": "Ковбaсa М'яснa лaвкa/Своя лінія Сaлямі Ітaлійскa с/к вaк/yпaк",
-    "unit": "за кг",
-    "category": "Ковбаса і м'ясні делікатеси",
-    "price": 698.99,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/116629/catalog_list_116629.jpg",
-    "url": "https://www.atbmarket.com/product/kovbasa-masna-lavkasvoa-linia-salami-italijska-sk-vakypak"
-  },
-  {
     "name": "Сосиски 330г М'ясна лавка/Своя лінія Дитячі",
     "unit": "",
     "category": "Ковбаса і м'ясні делікатеси",
@@ -28345,17 +28323,6 @@
     "out_of_stock": false,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/113233/catalog_list_113233.jpg",
     "url": "https://www.atbmarket.com/product/balik-svoa-linia-svatkovij"
-  },
-  {
-    "name": "Буженина Своя лінія Традиційна",
-    "unit": "за кг",
-    "category": "Ковбаса і м'ясні делікатеси",
-    "price": 442.55,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/113231/catalog_list_113231.jpg",
-    "url": "https://www.atbmarket.com/product/buzenina-svoa-linia-tradicijna"
   },
   {
     "name": "Рулет Своя лінія зі свинини к/в вак/упак",
@@ -28688,17 +28655,6 @@
     "url": "https://www.atbmarket.com/product/kovbasa-masna-lavkasvoa-linia-ternopilska-sv"
   },
   {
-    "name": "Ковбаса М'ясна лавка/Своя лінія Губернаторська с/в",
-    "unit": "за кг",
-    "category": "Ковбаса і м'ясні делікатеси",
-    "price": 635.49,
-    "old_price": null,
-    "discount_percent": null,
-    "out_of_stock": false,
-    "image": "https://src.zakaz.atbmarket.com/cache/photos/1385/catalog_list_1385.jpg",
-    "url": "https://www.atbmarket.com/product/kovbasa-masna-lavkasvoa-linia-gubernatorska-sv"
-  },
-  {
     "name": "Ковбаса 400 г М'ясна лавка/Своя лінія Австрійська к/з",
     "unit": "",
     "category": "Ковбаса і м'ясні делікатеси",
@@ -28754,6 +28710,17 @@
     "url": "https://www.atbmarket.com/product/kovbasa-dobrov-likarska-dstu-var"
   },
   {
+    "name": "Ковбаса Добров Феліно с/в",
+    "unit": "за кг",
+    "category": "Ковбаса і м'ясні делікатеси",
+    "price": 748.49,
+    "old_price": 906.99,
+    "discount_percent": 17,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/4324/catalog_list_4324.jpg",
+    "url": "https://www.atbmarket.com/product/kovbasa-dobrov-felino-sv"
+  },
+  {
     "name": "Сосиски 330г Добров Молочні",
     "unit": "",
     "category": "Ковбаса і м'ясні делікатеси",
@@ -28763,6 +28730,28 @@
     "out_of_stock": true,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/409/catalog_list_409.jpg",
     "url": "https://www.atbmarket.com/product/sosiski-330g-dobrov-molocni"
+  },
+  {
+    "name": "Ковбaсa М'яснa лaвкa/Своя лінія Сaлямі Ітaлійскa с/к вaк/yпaк",
+    "unit": "за кг",
+    "category": "Ковбаса і м'ясні делікатеси",
+    "price": 698.99,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/116629/catalog_list_116629.jpg",
+    "url": "https://www.atbmarket.com/product/kovbasa-masna-lavkasvoa-linia-salami-italijska-sk-vakypak"
+  },
+  {
+    "name": "Буженина Своя лінія Традиційна",
+    "unit": "за кг",
+    "category": "Ковбаса і м'ясні делікатеси",
+    "price": 442.55,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/113231/catalog_list_113231.jpg",
+    "url": "https://www.atbmarket.com/product/buzenina-svoa-linia-tradicijna"
   },
   {
     "name": "Ковбаса Добров Салямі італійська в/к",
@@ -28818,6 +28807,17 @@
     "out_of_stock": true,
     "image": "https://src.zakaz.atbmarket.com/cache/photos/33843/catalog_list_33843.jpg",
     "url": "https://www.atbmarket.com/product/sardelki-dobrov-zenevski-z-sirom-emmental-var-vakupak"
+  },
+  {
+    "name": "Ковбаса М'ясна лавка/Своя лінія Губернаторська с/в",
+    "unit": "за кг",
+    "category": "Ковбаса і м'ясні делікатеси",
+    "price": 635.49,
+    "old_price": null,
+    "discount_percent": null,
+    "out_of_stock": true,
+    "image": "https://src.zakaz.atbmarket.com/cache/photos/1385/catalog_list_1385.jpg",
+    "url": "https://www.atbmarket.com/product/kovbasa-masna-lavkasvoa-linia-gubernatorska-sv"
   },
   {
     "name": "Ковбаса Добров Тірольська н/к",
